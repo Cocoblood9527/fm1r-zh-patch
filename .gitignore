@@ -1,0 +1,7 @@
+vendor/
+dist/
+src/*/bin/
+src/*/obj/
+*.zip
+*.user
+BepInEx/LogOutput.log

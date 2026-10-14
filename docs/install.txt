@@ -1,0 +1,59 @@
+《前线任务 初代 重制版》繁体中文汉化补丁 — 安装说明
+
+适用版本：v.3.0.1（Unity 2021.3.6f1，Windows 64 位 Mono 版）
+补丁形式：BepInEx 插件，不修改游戏原始文件
+
+
+一、安装（Windows）
+
+1. 完全关闭游戏。
+2. 把本压缩包里的全部内容解压到游戏根目录，也就是和
+   "FRONT MISSION 1st Remake.exe" 同一个文件夹。
+   解压后该文件夹里应该出现：
+       BepInEx\
+       winhttp.dll
+       doorstop_config.ini
+3. 启动游戏，游戏内语言选择「繁體中文」即可看到汉化文本。
+
+首次启动会慢几秒，因为补丁要把额外的汉字现场绘制成字形，之后会快很多。
+
+
+二、Steam Deck / Proton
+
+上面的 winhttp.dll 需要让 Wine 优先加载游戏目录里的版本。在 Steam 里
+右键游戏 → 属性 → 通用 → 启动设置，填入：
+
+    WINEDLLOVERRIDES="winhttp=n,b" %command%
+
+然后把解压出来的文件放进 Proton 前缀对应的游戏目录（兼容数据包）里。
+
+
+三、卸载
+
+删除游戏根目录下的这三样即可，游戏回到原版状态：
+    BepInEx\
+    winhttp.dll
+    doorstop_config.ini
+
+
+四、想确认补丁有没有生效
+
+看游戏里这些词：
+    生效：設置 / 新手機師指南 / 工作人員列表 / 平滑處理 (ANTI-ALIASING)
+    未生效（原版机翻）：配置 / 新手指南 / 制作人员名单 之类
+也可以打开 BepInEx\LogOutput.log，里面应有
+    [FM1R Chinese Translation] 读入 8198 条文本
+    [FM1R Dynamic Glyph Fallback] 已挂到 ... 个字体资产的 fallback 链首位
+
+
+五、自己改文本
+
+见「edit-text.txt」（如何自己改文本）。不需要重新编译任何东西。
+
+
+六、许可与致谢
+
+- 本补丁不包含、也不修改任何游戏原始资源，全部文本以键值表形式在运行时载入。
+- 随包分发的 Noto Sans CJK TC 字体由 Google 的 Noto CJK 项目提供，
+  采用 SIL Open Font License 1.1，全文见 LICENSE-Noto.txt。
+- 译文为玩家用人工修订的繁体中文，仅供同好交流使用，请勿用于任何商业用途。
