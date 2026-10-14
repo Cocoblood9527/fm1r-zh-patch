@@ -55,7 +55,8 @@ WINEDLLOVERRIDES="winhttp=n,b" %command%
 
 ## 自己改文本
 
-编辑 `BepInEx/plugins/FM1RZhPatch/zh.csv`（UTF-8，两列 `key,zh`），不需要重新编译任何东西。
+编辑 `BepInEx/plugins/FM1RZhPatch/zh.csv`（UTF-8 CSV，含 `key,flag,zh,jp_original,en` 五列，
+插件只认 `key` 与 `zh`，其余列供你对照日文/英文原句用），不需要重新编译任何东西。
 详细注意事项见 [`docs/edit-text.txt`](docs/edit-text.txt)。
 
 ---
@@ -78,7 +79,7 @@ GAME_DIR="/path/to/FRONT MISSION 1st Remake" ./build.sh
 ```
 src/FM1RZhPatch/     文本注入插件：改写 Walker.LocalizedMessages 的中文表
 src/FM1RGlyphFix/    字形注入插件：运行时挂入动态 CJK 字体
-data/zh.csv          8198 条繁体中文文本
+data/zh.csv          8198 条译文 + 日文/英文原句对照（插件只读 key 与 zh 两列）
 data/chars.txt       启动时预热的字形列表
 docs/                面向玩家的安装与改文本说明
 build.sh             编译 + 打包

@@ -127,15 +127,26 @@ namespace FM1RZhPatch
             var text = File.ReadAllText(path, Encoding.UTF8);
             if (text.Length > 0 && text[0] == '\uFEFF') text = text.Substring(1);
 
-            var fields = new List<string>(2);
+            var fields = new List<string>(5);
             var sb = new StringBuilder();
-            bool quoted = false;
+            bool quoted = false, headerSeen = false;
+            int keyCol = 0, zhCol = 1;
 
             void EndField() { fields.Add(sb.ToString()); sb.Clear(); }
             void EndRow()
             {
                 EndField();
-                if (fields.Count >= 2 && fields[0] != "key") rows[fields[0]] = fields[1];
+                if (!headerSeen)
+                {
+                    // 按表头定位，参考列（flag / jp_original / en）和列顺序都可以随意放
+                    headerSeen = true;
+                    if (fields.IndexOf("key") >= 0) keyCol = fields.IndexOf("key");
+                    if (fields.IndexOf("zh") >= 0) zhCol = fields.IndexOf("zh");
+                }
+                else if (fields.Count > Math.Max(keyCol, zhCol) && fields[keyCol].Length > 0)
+                {
+                    rows[fields[keyCol]] = fields[zhCol];
+                }
                 fields.Clear();
             }
 
