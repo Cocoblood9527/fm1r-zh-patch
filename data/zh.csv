@@ -630,7 +630,7 @@ He wants you to report to him ASAP at his office in the Military Ward."
 msg_gry_ofi1,1,"奧爾森：
 你們之前的擅自行動原本足以送上軍事法庭審判，不過本隊的最高負責人布萊克伍德將軍特地指示我從寬處理。
 這次我就睜一隻眼閉一隻眼放過你們，但今後絕對不允許任何違抗命令的行為，給我記清楚了！
-距離下一次作戰任務還有一段時間，在那之前絕對不準踏出這座城鎮半步！","オルソン：
+距離下一次任務還有一段時間，在那之前絕對不準踏出這座城鎮半步！","オルソン：
 本来なら軍法会議ものだが、 この部隊の最高責任者である ブレイクウッド将軍から 寛大な処置をとるよう 命令された。 だから今回は見逃してやるが、 今後一切の命令違反は 認めないから覚悟しておけ！ 次の任務までまだ時間がある。 それまで絶対にこの町から でるんじゃないぞ！","Olson:
 Be glad you're not in the Army anymore—you deserve a court-martial for that stunt you pulled.
 Luckily for you, General Blakewood has given me specific orders to let this little incident slide.
@@ -731,7 +731,7 @@ msg_gry_jim7,1,"漢斯：
 Among other things. Nothing that Hans the Hacker can't track down for you."
 msg_gry_jim8,1,"\NM00：
 能請你幫我追查這張照片上的女人的下落嗎？
-她叫凱倫·繆爾。
+她叫凱倫・繆爾。
 無論什麼線索都可以，哪怕只是查明她究竟是生是死……。","\NM00：
 この写真の女を探してほしい。 名前はカレン。 生きているか死んでいるか、 それをはっきりさせるだけでも いい。","\NM00:
 Can you look for any info on the woman in this picture?
@@ -764,7 +764,7 @@ msg_gry_city9,1,"楊美華：
 あんたもね、\NM00。","Meihua:
 I hope you find Karen, too."
 msg_gry_ofi2,1,"奧爾森：
-好了，休假到此結束。現在下達新的作戰任務。
+好了，休假到此結束。現在下達新的任務。
 我軍即將全面展開反攻作戰，將侵入我國領土的U.S.N.軍徹底趕回國境線另一側。
 你們也必須配合正規軍的攻勢協同進軍！","オルソン：
 さあ、もう休暇は終わりだ。 次の任務を伝える。 わが国領内に入り込んだ U.S.N. 部隊を追いだす 作戦がまもなく開始される。 我々は正規軍の進攻に合わせて 進軍することになる！","Olson:
@@ -1238,7 +1238,7 @@ msg_bel_ofi14,1,"布雷克伍德：
 It's been a while."
 msg_bel_ofi15,1,"娜塔莉：
 請問還有什麼公務嗎，將軍？
-我還得去準備接下來的作戰任務，請長話短說。","ナタリー：
+我還得去準備接下來的任務，請長話短說。","ナタリー：
 ご用はなんです？将軍 作戦の準備がありますので早く してください。","Natalie:
 Permission to rejoin my squad to prepare for the mission, sir!"
 msg_bel_ofi16,1,"布雷克伍德：
@@ -2113,7 +2113,7 @@ msg_hlp_a_it,1,"機甲可攜帶的戰術道具大致分為三大類：
 2. 遠距投射道具（強酸彈、閃光彈、煙幕彈、干擾彈），用於遠程削弱敵機或支援友軍；
 3. 機甲地雷（B.A. Mine），用於在地圖格子上布設爆炸陷阱。",アイテムはおおまかに３タイプ あります。 そのヴァンツァーに使用して 回復するリペアS.M.L.SPCR 射出して他のヴァンツァーに 使用するアシッド、フラッシュ スモーク、チャフ マップ上に置いて使用する地雷 です。,"There are 3 types of usable items that wanzers can hold:
 repair items that can be used to restore wanzer parts' HP, ranged items (chaff, flash, smoke grenades, and acid bombs) that can be launched at targets, and land mines that are placed on the ground."
-msg_hlp_bar_bd,1,"選購機甲部件時，請務必仔細確認各部件的耐久度 <sprite name=""HP"">HP 以及防禦力 <sprite name=""shield"">DF。
+msg_hlp_bar_bd,1,"選購機體部件時，請務必仔細確認各部件的耐久度 <sprite name=""HP"">HP 以及防禦力 <sprite name=""shield"">DF。
 對於核心軀幹（BODY）而言，引擎出力 <sprite name=""lightning"">ENGINE（Power）更是重中之重。
 引擎出力越強，便能搭載越重型的強力武器與裝甲部件。
 目前裝備總重與引擎出力的平衡狀況，可在整備畫面右上方的 W/P 計量表中查看。
@@ -2147,7 +2147,7 @@ msg_hlp_a_le,1,"機甲的腿部部件一旦在戰鬥中被擊毀，其移動力�
 因此選購腿部時，除了移動力外，耐久度（HP）與防禦力（DF）同樣不可忽視。",脚のパーツは破壊されると、 移動力が１／２になります。 その時いる場所によっては 動けなくなるときもあります。 移動力ばかりでなくHPやDFも よく確認して下さい。,"When a wanzer's legs are destroyed, its movement rating is reduced by half.
 Depending on the terrain, that wanzer may not have a high enough movement rating to move out of its current location.
 HP and DF are also good stats to look out for."
-msg_hlp_men_le,1,"履帶型（坦克型）腿部部件的最大特長在於平地移動力極高，但面對高低落差大或障礙物眾多的地形時則難以通行。
+msg_hlp_men_le,1,"履帶型（戰車型）腿部部件的最大特長在於平地移動力極高，但面對高低落差大或障礙物眾多的地形時則難以通行。
 此外，部分履帶腿部內建了輔助引擎，可提升機體的總出力，選購時不妨留意一下 <sprite name=""lightning"">ENGINE 數值，非常適合用來組裝重裝砲擊型機甲。","タンクタイプの脚パーツの 特長は平地での移動力が高い事 です。ただし、高さや障害物の 多い地形は苦手です。 また補助エンジンをのせている ものがありますので<sprite name=""lightning"">ENGINEを 確認してみて下さい。","Tread type legs have the highest movement rate of all legs on flat terrain. However, they have difficulty climbing steep slopes and large obstacles.
 Note that some of the tread legs have auxiliary power cores that add to your wanzer's total power output. This is useful for assembling heavy artillery wanzers."
 msg_hlp_a_sh,1,"肩部掛載武器大多屬於射程遠、威力強大的遠距離火砲，但彈藥量（使用次數）通常有限。
@@ -2265,7 +2265,7 @@ msg_peseta_shop,1,"店主：
 More and more companies are entering the wanzer industry.
 Check out our new wares!"
 msg_freedombase_shop,1,"店主：
-剛從本土運來了一批全新的機甲部件，快來看看吧！","店主：
+剛從本土運來了一批全新的機體部件，快來看看吧！","店主：
 本国から新しいパーツが 届いているよ。","Wanzer Dealer:
 We just got some new items from the mainland.
 Check them out!"
@@ -2528,7 +2528,7 @@ msg_fort03_9045,1,"喬治：
 でも、戦車ほどじゃないけど ヴァンツァーも悪くないよな。","Jean:
 But you know… these wanzers might not be so bad after all."
 msg_fort01_9051,1,"赫克特：
-我們小隊明明被緊急調派到這裡好幾個星期了，卻一直沒分配到任何作戰任務。
+我們小隊明明被緊急調派到這裡好幾個星期了，卻一直沒分配到任何任務。
 看來上頭也還不知道該把我們派去哪條戰線吧。","ヘクター：
 急遽派遣されて来たっていうのに 全然任務がなくてなぁ。","Hector:
 My squad's been deployed here for weeks, but they still haven't sent us anywhere to fight.
@@ -2981,7 +2981,7 @@ msg_aborder_9351,1,"該隱：
 Why would anyone run around on armed wanzers all the way out here, anyway?"
 msg_aborder_9401,1,"丹：
 你有空應該去鎮上的機甲商店轉轉。
-那裡有許多從戰場上流放出來的二手機甲部件與剩餘軍用物資。","ダン：
+那裡有許多從戰場上流放出來的二手機體部件與剩餘軍用物資。","ダン：
 ヴァンツァーのパーツも たんまりあるよ。 といっても、戦場から流れてきた 中古品がほとんどだがね。","Dan:
 You should go check out the local wanzer shop.
 We have a lot of surplus material from the war."
@@ -3983,7 +3983,7 @@ msg_Ge_Name_98,0,,,
 msg_Ge_Name_99,0,,,
 msg_pldmdm,1,未裝備,装備無し,Nothing Equipped
 msg_pldmbd,1,未裝備,装備無し,Nothing Equipped
-msg_plxall,1,受損機甲部件,壊れパーツ,Destroyed Wanzer Part
+msg_plxall,1,受損機體部件,壊れパーツ,Destroyed Wanzer Part
 msg_pl00bd,1,Galbo 機身,ガルボ ボディ,Galbo Body
 msg_pl00al,1,Galbo 手臂,ガルボ アーム,Galbo Arm
 msg_pl00ll,1,Galbo 腿部,ガルボ レッグ,Galbo Legs
@@ -4231,8 +4231,8 @@ msg_pla3gl,1,PSG-5 步槍,ＰＳＧ－５ ライフル,PSG-5 Rifle
 msg_pla4gl,1,Joker 噴火器,ジョーカー,Joker Flamethrower
 msg_pla5gl,1,Hexa G3,ヘキサ Ｇ３,Hexa G3
 msg_pla6gl,1,Knucklebone,ナックルボーン,Knucklebone
-msg_pla0ip,1,Pheasant 一體化格鬥系統,フェザント内蔵打撃機構,Pheasant Melee System
-msg_pla1ip,1,Phantom 一體化格鬥系統,ファントム内蔵打撃機構,Phantom Melee System
+msg_pla0ip,1,Pheasant 格鬥模組,フェザント内蔵打撃機構,Pheasant Melee System
+msg_pla1ip,1,Phantom 格鬥模組,ファントム内蔵打撃機構,Phantom Melee System
 msg_pla0bp,1,Riff 背包,リフ,Riff
 msg_pl00gl,1,F-1 拐棍,Ｆ－１ロングトンファ,F-1 Tonfa
 msg_pl01gl,1,F-3 短棍,Ｆ－３ハンドロッド,F-3 Hand Rod
@@ -4326,7 +4326,7 @@ msg_pl12sl,1,Donkey 飛彈發射器,ドンキー Ｍランチャー,Donkey Missi
 msg_pl13sl,1,Ceres 飛彈發射器,ケレース Ｍランチャー,Ceres Missile Launcher
 msg_pl14sl,1,Magicbox 飛彈發射器,マジックボックスランチャー,Magicbox Missile Launcher
 msg_pl15sl,1,Donkey DX 飛彈發射器,ドンキーＤＸ Ｍランチャー,Donkey DX Missile Launcher
-msg_pl16sl,1,Dragonfang 一體化格鬥系統,ドラゴンハンド内蔵打撃機構,Dragonfang Melee System
+msg_pl16sl,1,Dragonfang 格鬥模組,ドラゴンハンド内蔵打撃機構,Dragonfang Melee System
 msg_pl17sl,1,Ragos 火箭發射器,ラゴース Ｒランチャー,Ragos Rocket Launcher
 msg_pl18sl,1,Blackpanther 飛彈發射器,ブラックパンサーランチャー,Blackpanther Missile Launcher
 msg_pl19sl,1,Crane 飛彈發射器,クレイン Ｍランチャー,Crane Missile Launcher
@@ -4417,88 +4417,88 @@ msg_pl84ig,1,Korold II 一體化機槍,カロークⅡ内蔵ＭＧ,Korold II Int
 msg_pl86ig,1,Bizant II 機槍,ビザントⅡＭＧ,Bizant II MG
 msg_pl87ig,1,Crayfish 2 火神砲,ざりがに２ バルカン,Crayfish 2 Vulcan
 msg_pl88ig,1,Crayfish 2 步槍,ざりがに２ ライフル,Crayfish 2 Rifle
-msg_pl00ip,1,Galbo 一體化格鬥系統,ガルボ内蔵打撃機構,Galbo Melee System
-msg_pl01ip,1,Zenith 一體化格鬥系統,ゼニス内蔵打撃機構,Zenith Melee System
-msg_pl03ip,1,Calm 一體化格鬥系統,カーム内蔵打撃機構,Calm Melee System
-msg_pl04ip,1,Zora 一體化格鬥系統,ゾラ内蔵打撃機構,Zora Melee System
-msg_pl06ip,1,Giza 一體化格鬥系統,ギザ内蔵打撃機構,Giza Melee System
-msg_pl07ip,1,Type 90X 一體化格鬥系統,９０Ｘ式内蔵打撃機構,Type 90X Melee System
-msg_pl08ip,1,Husky Mk.III 一體化格鬥系統,ハスキーⅢ内蔵打撃機構,Husky Mk.III Melee System
-msg_pl09ip,1,Moth 一體化格鬥系統,モス内蔵打撃機構,Moth Melee System
-msg_pl0aip,1,Groppe 一體化格鬥系統,グロップ内蔵打撃機構,Groppe Melee System
-msg_pl0bip,1,Pabotte 一體化格鬥系統,パボット内蔵打撃機構,Pabotte Melee System
-msg_pl0cip,1,Pabotte II 一體化格鬥系統,パボットⅡ内蔵打撃機構,Pabotte II Melee System
-msg_pl0dip,1,Crabesant 一體化格鬥系統,クラブサン内蔵打撃機構,Crabesant Melee System
-msg_pl0eip,1,Crabesant II 一體化格鬥系統,クラブサンⅡ内蔵打撃機構,Crabesant II Melee System
-msg_pl0fip,1,Zearaid 一體化格鬥系統,ゼアレイド内蔵打撃機構,Zearaid Melee System
-msg_pl10ip,1,Prisomare 一體化格鬥系統,プリソメア内蔵打撃機構,Prisomare Melee System
-msg_pl11ip,1,Orcus 一體化格鬥系統,オルクス内蔵打撃機構,Orcus Melee System
-msg_pl12ip,1,Tendus 一體化格鬥系統,テンダス内蔵打撃機構,Tendus Melee System
-msg_pl14ip,1,Stork 一體化格鬥系統,ストーク内蔵打撃機構,Stork Melee System
-msg_pl15ip,1,Arpeggio 一體化格鬥系統,アルペジオ内蔵打撃機構,Arpeggio Melee System
-msg_pl16ip,1,Pegase 一體化格鬥系統,ペガース内蔵打撃機構,Pegase Melee System
-msg_pl17ip,1,Avenir 一體化格鬥系統,アブニール内蔵打撃機構,Avenir Melee System
-msg_pl18ip,1,Zinc 一體化格鬥系統,ジンク内蔵打撃機構,Zinc Melee System
-msg_pl19ip,1,Vals 一體化格鬥系統,バルス内蔵打撃機構,Vals Melee System
-msg_pl1aip,1,Frost 一體化格鬥系統,フロスト内蔵打撃機構,Frost Melee System
-msg_pl1bip,1,Type 103 一體化格鬥系統,１０３式内蔵打撃機構,Type 103 Melee System
-msg_pl1dip,1,Type 150 一體化格鬥系統,１５０式内蔵打撃機構,Type 150 Melee System
+msg_pl00ip,1,Galbo 格鬥模組,ガルボ内蔵打撃機構,Galbo Melee System
+msg_pl01ip,1,Zenith 格鬥模組,ゼニス内蔵打撃機構,Zenith Melee System
+msg_pl03ip,1,Calm 格鬥模組,カーム内蔵打撃機構,Calm Melee System
+msg_pl04ip,1,Zora 格鬥模組,ゾラ内蔵打撃機構,Zora Melee System
+msg_pl06ip,1,Giza 格鬥模組,ギザ内蔵打撃機構,Giza Melee System
+msg_pl07ip,1,Type 90X 格鬥模組,９０Ｘ式内蔵打撃機構,Type 90X Melee System
+msg_pl08ip,1,Husky Mk.III 格鬥模組,ハスキーⅢ内蔵打撃機構,Husky Mk.III Melee System
+msg_pl09ip,1,Moth 格鬥模組,モス内蔵打撃機構,Moth Melee System
+msg_pl0aip,1,Groppe 格鬥模組,グロップ内蔵打撃機構,Groppe Melee System
+msg_pl0bip,1,Pabotte 格鬥模組,パボット内蔵打撃機構,Pabotte Melee System
+msg_pl0cip,1,Pabotte II 格鬥模組,パボットⅡ内蔵打撃機構,Pabotte II Melee System
+msg_pl0dip,1,Crabesant 格鬥模組,クラブサン内蔵打撃機構,Crabesant Melee System
+msg_pl0eip,1,Crabesant II 格鬥模組,クラブサンⅡ内蔵打撃機構,Crabesant II Melee System
+msg_pl0fip,1,Zearaid 格鬥模組,ゼアレイド内蔵打撃機構,Zearaid Melee System
+msg_pl10ip,1,Prisomare 格鬥模組,プリソメア内蔵打撃機構,Prisomare Melee System
+msg_pl11ip,1,Orcus 格鬥模組,オルクス内蔵打撃機構,Orcus Melee System
+msg_pl12ip,1,Tendus 格鬥模組,テンダス内蔵打撃機構,Tendus Melee System
+msg_pl14ip,1,Stork 格鬥模組,ストーク内蔵打撃機構,Stork Melee System
+msg_pl15ip,1,Arpeggio 格鬥模組,アルペジオ内蔵打撃機構,Arpeggio Melee System
+msg_pl16ip,1,Pegase 格鬥模組,ペガース内蔵打撃機構,Pegase Melee System
+msg_pl17ip,1,Avenir 格鬥模組,アブニール内蔵打撃機構,Avenir Melee System
+msg_pl18ip,1,Zinc 格鬥模組,ジンク内蔵打撃機構,Zinc Melee System
+msg_pl19ip,1,Vals 格鬥模組,バルス内蔵打撃機構,Vals Melee System
+msg_pl1aip,1,Frost 格鬥模組,フロスト内蔵打撃機構,Frost Melee System
+msg_pl1bip,1,Type 103 格鬥模組,１０３式内蔵打撃機構,Type 103 Melee System
+msg_pl1dip,1,Type 150 格鬥模組,１５０式内蔵打撃機構,Type 150 Melee System
 msg_pl1fip,1,Dasler 格鬥爪,ダスラーアイアンクロウ,Dasler Claw
-msg_pl21ip,1,Tempest 一體化格鬥系統,テンペスト内蔵打撃機構,Tempest Melee System
-msg_pl22ip,1,Zigle-6B 一體化格鬥系統,ジグル６Ｂ内蔵打撃機構,Zigle-6B Melee System
-msg_pl23ip,1,Zigle-11A 一體化格鬥系統,ジグル１１Ａ内蔵打撃機構,Zigle-11A Melee System
-msg_pl25ip,1,Zeria 一體化格鬥系統,ゼリア内蔵打撃機構,Zeria Melee System
-msg_pl26ip,1,Zenith V 一體化格鬥系統,ゼニスⅤ内蔵打撃機構,Zenith V Melee System
-msg_pl27ip,1,Galbo SV 一體化格鬥系統,ガルボＳＶ内蔵打撃機構,Galbo SV Melee System
-msg_pl28ip,1,Galbo MRX 一體化格鬥系統,ガルボＭＲＸ内蔵打撃機構,Galbo MRX Melee System
-msg_pl29ip,1,Husky Mk.IV 一體化格鬥系統,ハスキーⅣ内蔵打撃機構,Husky Mk.IV Melee System
-msg_pl2aip,1,Gein 一體化格鬥系統,ゲイン内蔵打撃機構,Gein Melee System
-msg_pl2bip,1,Genem 一體化格鬥系統,ゲネム内蔵打撃機構,Genem Melee System
-msg_pl2cip,1,Peregrine 一體化格鬥系統,ペレグリン内蔵打撃機構,Peregrine Melee System
-msg_pl2dip,1,Groppe SPV 一體化格鬥系統,グロップＳＰＶ内蔵打撃機構,Groppe SPV Melee System
-msg_pl2eip,1,Zikade 一體化格鬥系統,ツィカーデ内蔵打撃機構,Zikade Melee System
-msg_pl2fip,1,Cicada II 一體化格鬥系統,シケイダⅡ内蔵打撃機構,Cicada II Melee System
-msg_pl32ip,1,Vonart 一體化格鬥系統,ボナート内蔵打撃機構,Vonart Melee System
-msg_pl33ip,1,Varsa 一體化格鬥系統,ヴァーサ内蔵打撃機構,Varsa Melee System
-msg_pl34ip,1,Stork Mk.IV 一體化格鬥系統,ストークⅣ内蔵打撃機構,Stork Mk.IV Melee System
-msg_pl35ip,1,Mareraid 一體化格鬥系統,メアレイド内蔵打撃機構,Mareraid Melee System
-msg_pl36ip,1,Novaraid 一體化格鬥系統,ノヴァレイド内蔵打撃機構,Novaraid Melee System
-msg_pl37ip,1,Orcus II 一體化格鬥系統,オルクスⅡ内蔵打撃機構,Orcus II Melee System
-msg_pl38ip,1,S-Orcus 一體化格鬥系統,Ｓオルクス内蔵打撃機構,S-Orcus Melee System
-msg_pl39ip,1,Blizzaia 一體化格鬥系統,ブリザイア内蔵打撃機構,Blizzaia Melee System
-msg_pl3aip,1,Blizzaia II 一體化格鬥系統,ブリザイアⅡ内蔵打撃機構,Blizzaia II Melee System
-msg_pl3bip,1,Prosion 一體化格鬥系統,プロジオン内蔵打撃機構,Prosion Melee System
-msg_pl3cip,1,Perzea 一體化格鬥系統,ペルゼア内蔵打撃機構,Perzea Melee System
+msg_pl21ip,1,Tempest 格鬥模組,テンペスト内蔵打撃機構,Tempest Melee System
+msg_pl22ip,1,Zigle-6B 格鬥模組,ジグル６Ｂ内蔵打撃機構,Zigle-6B Melee System
+msg_pl23ip,1,Zigle-11A 格鬥模組,ジグル１１Ａ内蔵打撃機構,Zigle-11A Melee System
+msg_pl25ip,1,Zeria 格鬥模組,ゼリア内蔵打撃機構,Zeria Melee System
+msg_pl26ip,1,Zenith V 格鬥模組,ゼニスⅤ内蔵打撃機構,Zenith V Melee System
+msg_pl27ip,1,Galbo SV 格鬥模組,ガルボＳＶ内蔵打撃機構,Galbo SV Melee System
+msg_pl28ip,1,Galbo MRX 格鬥模組,ガルボＭＲＸ内蔵打撃機構,Galbo MRX Melee System
+msg_pl29ip,1,Husky Mk.IV 格鬥模組,ハスキーⅣ内蔵打撃機構,Husky Mk.IV Melee System
+msg_pl2aip,1,Gein 格鬥模組,ゲイン内蔵打撃機構,Gein Melee System
+msg_pl2bip,1,Genem 格鬥模組,ゲネム内蔵打撃機構,Genem Melee System
+msg_pl2cip,1,Peregrine 格鬥模組,ペレグリン内蔵打撃機構,Peregrine Melee System
+msg_pl2dip,1,Groppe SPV 格鬥模組,グロップＳＰＶ内蔵打撃機構,Groppe SPV Melee System
+msg_pl2eip,1,Zikade 格鬥模組,ツィカーデ内蔵打撃機構,Zikade Melee System
+msg_pl2fip,1,Cicada II 格鬥模組,シケイダⅡ内蔵打撃機構,Cicada II Melee System
+msg_pl32ip,1,Vonart 格鬥模組,ボナート内蔵打撃機構,Vonart Melee System
+msg_pl33ip,1,Varsa 格鬥模組,ヴァーサ内蔵打撃機構,Varsa Melee System
+msg_pl34ip,1,Stork Mk.IV 格鬥模組,ストークⅣ内蔵打撃機構,Stork Mk.IV Melee System
+msg_pl35ip,1,Mareraid 格鬥模組,メアレイド内蔵打撃機構,Mareraid Melee System
+msg_pl36ip,1,Novaraid 格鬥模組,ノヴァレイド内蔵打撃機構,Novaraid Melee System
+msg_pl37ip,1,Orcus II 格鬥模組,オルクスⅡ内蔵打撃機構,Orcus II Melee System
+msg_pl38ip,1,S-Orcus 格鬥模組,Ｓオルクス内蔵打撃機構,S-Orcus Melee System
+msg_pl39ip,1,Blizzaia 格鬥模組,ブリザイア内蔵打撃機構,Blizzaia Melee System
+msg_pl3aip,1,Blizzaia II 格鬥模組,ブリザイアⅡ内蔵打撃機構,Blizzaia II Melee System
+msg_pl3bip,1,Prosion 格鬥模組,プロジオン内蔵打撃機構,Prosion Melee System
+msg_pl3cip,1,Perzea 格鬥模組,ペルゼア内蔵打撃機構,Perzea Melee System
 msg_pl41ip,1,Desert 格鬥衝拳,でざーとぱんち,Desert Punch
-msg_pl42ip,1,Flugel 一體化格鬥系統,フリューゲル内蔵打撃機構,Flugel Melee System
-msg_pl43ip,1,Zeroa 一體化格鬥系統,ゼロア内蔵打撃機構,Zeroa Melee System
-msg_pl44ip,1,Type 90 一體化格鬥系統,９０式内蔵打撃機構,Type 90 Melee System
-msg_pl45ip,1,Type 105 一體化格鬥系統,１０５式内蔵打撃機構,Type 105 Melee System
-msg_pl46ip,1,Valiant 一體化格鬥系統,ヴァリアント内蔵打撃機構,Valiant Melee System
-msg_pl47ip,1,Eldos 一體化格鬥系統,エルドス内蔵打撃機構,Eldos Melee System
-msg_pl49ip,1,Orgel 一體化格鬥系統,オルゲル内蔵打撃機構,Orgel Melee System
+msg_pl42ip,1,Flugel 格鬥模組,フリューゲル内蔵打撃機構,Flugel Melee System
+msg_pl43ip,1,Zeroa 格鬥模組,ゼロア内蔵打撃機構,Zeroa Melee System
+msg_pl44ip,1,Type 90 格鬥模組,９０式内蔵打撃機構,Type 90 Melee System
+msg_pl45ip,1,Type 105 格鬥模組,１０５式内蔵打撃機構,Type 105 Melee System
+msg_pl46ip,1,Valiant 格鬥模組,ヴァリアント内蔵打撃機構,Valiant Melee System
+msg_pl47ip,1,Eldos 格鬥模組,エルドス内蔵打撃機構,Eldos Melee System
+msg_pl49ip,1,Orgel 格鬥模組,オルゲル内蔵打撃機構,Orgel Melee System
 msg_pl50ip,1,Dorian A 格鬥衝拳,ドリアンＡパンチ,Dorian A Punch
 msg_pl51ip,1,Dorian B 格鬥衝拳,ドリアンＢパンチ,Dorian B Punch
 msg_pl53ip,1,Driscoll D 火神砲,ドリスコルＤバルカン,Driscoll D Vulcan
 msg_pl80ip,1,Dasler II 格鬥爪,ダスラークローⅡ,Dasler Claw II
 msg_pl81ip,1,Dasler III 格鬥爪,ダスラークローⅢ,Dasler Claw III
-msg_pl83ip,1,Vals II 一體化格鬥系統,バルスⅡ内蔵打撃機構,Vals II Melee System
-msg_pl85ip,1,Zenith V-SP 一體化格鬥系統,ゼニスⅤＳＰ内蔵打撃機構,Zenith V-SP Melee System
-msg_pl87ip,1,Type 105C 一體化格鬥系統,１０５式改内蔵打撃機構,Type 105C Melee System
+msg_pl83ip,1,Vals II 格鬥模組,バルスⅡ内蔵打撃機構,Vals II Melee System
+msg_pl85ip,1,Zenith V-SP 格鬥模組,ゼニスⅤＳＰ内蔵打撃機構,Zenith V-SP Melee System
+msg_pl87ip,1,Type 105C 格鬥模組,１０５式改内蔵打撃機構,Type 105C Melee System
 msg_itat20,1,"修復套組 S：
-恢復機甲部件 50 HP","リペア Ｓ：
+恢復機體部件 50 HP","リペア Ｓ：
 ＨＰを５０回復する","Repair S:
 Repairs 50HP."
 msg_itat40,1,"修復套組 M：
-恢復機甲部件 100 HP","リペア Ｍ：
+恢復機體部件 100 HP","リペア Ｍ：
 ＨＰを１００回復する","Repair M:
 Repairs 100HP."
 msg_itat80,1,"修復套組 L：
-恢復機甲部件 200 HP","リペア Ｌ：
+恢復機體部件 200 HP","リペア Ｌ：
 ＨＰを２００回復する","Repair L:
 Repairs 200HP."
 msg_itat90,1,"修復套組 SP：
-恢復機甲部件 400 HP","リペア ＳＰ：
+恢復機體部件 400 HP","リペア ＳＰ：
 ＨＰを４００回復する","Repair SP:
 Repairs 400HP."
 msg_itsmkd,1,"煙幕彈：
@@ -4571,13 +4571,13 @@ msg_pla8gl_plus,1,Winee Plus 步槍,ウィニープラス ライフル,Winee Plu
 msg_pla9gl_plus,1,Rockjack 火箭筒,ロックジャック バズーカ,Rockjack Bazooka
 msg_plaagl_plus,1,Covet V300 霰彈槍,コベットＶ３００ ＳＧ,Covet V300 Shotgun
 msg_plabgl_plus,1,Crusader 短棍,クルセイダーロッド,Crusader Rod
-msg_pla2ip_plus,1,Igel Eins H 一體化格鬥系統,イーゲルアイン内蔵打撃機構,Igel Eins H Melee System
-msg_pla3ip_plus,1,Vaje 一體化格鬥系統,ヴァジェ内蔵打撃機構,Vaje Melee System
-msg_pla4ip_plus,1,Zelt 一體化格鬥系統,ゼルト内蔵打撃機構,Zelt Melee System
-msg_pla5ip_plus,1,Numsekar 一體化格鬥系統,ナムスカル内蔵打撃機構,Numsekar Melee System
-msg_pla6ip_plus,1,Strega 一體化格鬥系統,ストレーガ内蔵打撃機構,Strega Melee System
-msg_pla7ip_plus,1,Pious 一體化格鬥系統,パイウス内蔵打撃機構,Pious Melee System
-msg_plbdip_plus,1,Frost HW 一體化格鬥系統,フロストＨＷ内蔵打撃機構,Frost HW Melee System
+msg_pla2ip_plus,1,Igel Eins H 格鬥模組,イーゲルアイン内蔵打撃機構,Igel Eins H Melee System
+msg_pla3ip_plus,1,Vaje 格鬥模組,ヴァジェ内蔵打撃機構,Vaje Melee System
+msg_pla4ip_plus,1,Zelt 格鬥模組,ゼルト内蔵打撃機構,Zelt Melee System
+msg_pla5ip_plus,1,Numsekar 格鬥模組,ナムスカル内蔵打撃機構,Numsekar Melee System
+msg_pla6ip_plus,1,Strega 格鬥模組,ストレーガ内蔵打撃機構,Strega Melee System
+msg_pla7ip_plus,1,Pious 格鬥模組,パイウス内蔵打撃機構,Pious Melee System
+msg_plbdip_plus,1,Frost HW 格鬥模組,フロストＨＷ内蔵打撃機構,Frost HW Melee System
 msg_plaaig_plus,1,Hornet 一體化火箭筒,ホーネット内蔵バズーカ,Hornet Integrated Bazooka
 msg_plabig_plus,1,Partridge 一體化飛彈發射器,パートリッジ内蔵ランチャー,Partridge Int. Missile Launcher
 msg_placig_plus,1,Sphinx 一體化火箭筒,スフィンクス内蔵バズーカ,Sphinx Integrated Bazooka
@@ -4612,7 +4612,7 @@ msg_command_equipment,1,補給車整備,補給車,Change equipment.
 msg_command_crs_bomb,1,請求空中支援轟炸,コレスポンド爆撃,Call for an air strike.
 msg_command_crs_cannon,1,請求砲兵火力支援,コレスポンド砲撃,Call for artillery support.
 msg_command_crs_container,1,請求投放補給箱,コンテナ投下,Call for a supply drop.
-msg_command_repair,1,修理目標機甲部件,リペア、機体を修復する,Repair target.
+msg_command_repair,1,修理目標機體部件,リペア、機体を修復する,Repair target.
 msg_command_status,1,顯示機體狀態,ユニットのステータス表示,Display unit status.
 msg_command_p_end,1,結束我方作戰回合,プレイヤーのフェーズを終了,End player phase.
 msg_command_interruption,1,即時存檔並中斷遊戲,ゲームのセーブと中断,Quicksave and end session.
@@ -4620,12 +4620,12 @@ msg_command_interrupted,1,即時存檔已完成,セーブしました,Quicksave 
 msg_command_config,1,修改遊戲系統設置,ゲーム設定の変更。,Modify game settings.
 msg_command_yes,1,確認,決定,Confirm
 msg_command_cancel,1,取消,取り消す,Cancel
-msg_command_player_p,1,我方作戰階段 (Player Phase),Player Phase,Player Phase
-msg_command_npc_p,1,友軍作戰階段 (Ally Phase),自軍コンピュータフェーズ,NPC Ally Phase
-msg_command_enemy_p,1,敵方作戰階段 (Enemy Phase),Enemy Phase,Enemy Phase
+msg_command_player_p,1,我方作戰階段,Player Phase,Player Phase
+msg_command_npc_p,1,友軍作戰階段,自軍コンピュータフェーズ,NPC Ally Phase
+msg_command_enemy_p,1,敵方作戰階段,Enemy Phase,Enemy Phase
 msg_command_defence,1,執行防禦機動,防御行動,Perform evasive maneuvers.
 msg_command_supply,1,補給彈藥,弾薬の補給,Resupply ammo.
-msg_command_u_status,1,顯示機甲機體狀態,ユニットの状態,Display unit status.
+msg_command_u_status,1,顯示機體狀態,ユニットの状態,Display unit status.
 msg_command_c_status,1,顯示機師狀態與技能,パイロットの状態,Display pilot status.
 msg_command_w_status,1,顯示武器裝備狀況,武器の状態,Display the status of the weapons.
 msg_command_dummy,0,,, 
@@ -4671,7 +4671,7 @@ msg_command_control,1,"更改操作模式。
 當前模式：\NM01","操作方法の変更
 現在は －\NM01－ です","Change control settings.
 Current setting: \NM01"
-msg_command_speed,1,"更改遊戲游玩速度。
+msg_command_speed,1,"更改遊戲遊玩速度。
 當前速度：\NM02","ゲームスピードの変更
 現在は －\NM02－ です","Change game speed.
 Current setting: \NM02"
@@ -5008,8 +5008,8 @@ msg_pilsts,1,查看機師狀態檔案。,ステータス表示,Display pilot sta
 msg_system,1,保存或讀取遊戲進度。,ゲームのセーブ／ロード,Save or load a game.
 msg_exit,1,離開駐地城市。,町をでる,Leave town.
 msg_city_setup,1,進行機甲整備與改裝 (Set Up)。,機体の編集,Change wanzer setups.
-msg_ct_save,1,保存當前游玩數據。,セーブ,Save the current game.
-msg_ct_load,1,讀取既有存檔數據。,ロード,Load the previous game.
+msg_ct_save,1,保存當前遊玩數據。,セーブ,Save the current game.
+msg_ct_load,1,讀取既有存檔資料。,ロード,Load the previous game.
 msg_hangar,1,前往機甲機庫。,ハンガー,Go to the hangar.
 msg_command_room,1,前往戰術司令室。,司令室,Go to the command room.
 msg_heisya,1,前往士兵兵營。,兵舎,Go to the barracks.
@@ -5190,7 +5190,7 @@ msg_wrn_nopart,1,整備庫房中暫無此類部件可用。,このパーツは�
 msg_wrn_mchsel,1,\NM00 屬于強制出擊機體，無法卸除。,\NM00は必ず出撃です,\NM00 cannot be removed.
 msg_wrn_roidmch,1,\NM00 的機體當前無法出擊。,\NM00の機体が出撃不能です,\NM00 is not combat-ready.
 msg_wrn_mchmax,1,出擊機體數量已達上限，無法追加。,これ以上選択できません,You cannot select any more.
-msg_wrn_nosel,1,尚未選定任何機甲機體。,機体が選択されていません,No vehicle was selected.
+msg_wrn_nosel,1,尚未選定任何機體。,機体が選択されていません,No vehicle was selected.
 msg_wrn_notrd,1,正在補給中，無法執行該操作。,補給中はできません,Cannot perform during resupply.
 msg_wrn_largemch_00,1,當前裝備為大型機動兵器，無法進行常規自定義整備。,"大型機動兵器を装備中のため、
 セットアップ出来ません。","You cannot change the loadout of
@@ -6472,7 +6472,7 @@ msg_06_011A,1,"\NM01：
 You'll get to go out in your own blaze of glory if you don't stay focused!"
 msg_06_012S,1,"\NM01：
 敵機全數殲滅！
-作戰任務圓滿完成！","\NM01：
+任務圓滿完成！","\NM01：
 敵機全滅！ 作戦終了しました！","\NM01:
 All hostiles eliminated.
 Mission complete!"
@@ -15822,7 +15822,7 @@ msg_freedombase01_1203,1,"\NM00：
 Grieg Demetrius of ""Hell's Wall"" chewed me out for saving those supply trucks.
 Do you think it was a bad call, Sergeant?"
 msg_freedombase01_1204,1,"桑德斯：
-考慮到我們的機甲狀態、敵人的部署、還有地形條件……
+考慮到我們的機體狀態、敵人的部署、還有地形條件……
 如我直言，長官，但是……確實做得不妥，
 所有軍官都知道機甲班隊的戰術價值遠遠大於補給車隊。","サンダース：
 味方の損耗状態、 敵の戦力、援軍、立地、 いずれの戦力条件をとっても、 戦うべきではなかった でしょう。 補給部隊とヴァンツァー部隊の どちらかが重要かなんて、 戦略的に見て比べるべくも ありません。","Johnny:
@@ -23074,7 +23074,7 @@ msg_dsad_renges,1,"倫格斯：
 謝弗肯定動過我的控制器設置……回到基地，我要踹他屁股！","レンゲス：
 被弾した、離脱する。","Renges:
 Schaeffer must've messed with my control settings... I'm gonna kick his butt when I get back to base!"
-msg_sl_save,1,保存記錄,セーブ,Save
+msg_sl_save,1,儲存記錄,セーブ,Save
 msg_sl_load,1,讀取記錄,ロード,Load
 msg_sl_slot1,1,（假人）,スロット１,(Dummy)
 msg_sl_slot2,1,（假人）,スロット２,(Dummy)
@@ -23258,11 +23258,11 @@ ui_back_to_menu,1,返回主菜單。,メニューへ戻る。,Back to the menu.
 ui_select_campaign,1,選擇作戰陣營戰役,Select a campaign,Select a campaign
 ui_ocu_side,1,O.C.U. 陣營篇,O.C.U. SIDE,O.C.U. SIDE
 ui_ucs_side,1,U.S.N. 陣營篇,U.S.N. SIDE,U.C.S. SIDE
-ui_ocu_desc,1,"以O.C.U.陸軍洛伊德·克里夫上尉為視角的第二次哈夫曼紛爭。
-劇情線經典純粹，推荐首次游玩該作的玩家選擇。",O.C.U軍のロイドから見た第二次ハフマン紛争。初心者におすすめ。,"The Second Huffman Conflict, as seen through the eyes of Captain Royd Clive of the O.C.U. Army.
+ui_ocu_desc,1,"以O.C.U.陸軍洛伊德・克萊夫上尉為視角的第二次哈夫曼紛爭。
+劇情線經典純粹，推薦首次遊玩該作的玩家選擇。",O.C.U軍のロイドから見た第二次ハフマン紛争。初心者におすすめ。,"The Second Huffman Conflict, as seen through the eyes of Captain Royd Clive of the O.C.U. Army.
 Recommended for first-time play."
-ui_ucs_desc,1,"以U.S.N.黑色獵犬凱文·格林菲爾德中尉為視角的第二次哈夫曼紛爭。
-從敵方視角層層揭開戰爭背后的殘酷陰謀，推荐戰術老玩家選擇。",U.S.N.軍のケビンから見た第二次ハフマン紛争。上級者におすすめ。,"The Second Huffman Conflict, as seen through the eyes of Lieutenant Kevin Greenfield of the U.C.S. military.
+ui_ucs_desc,1,"以U.S.N.黑色獵犬凱文・格林菲爾德中尉為視角的第二次哈夫曼紛爭。
+從敵方視角層層揭開戰爭背後的殘酷陰謀，推薦戰術老玩家選擇。",U.S.N.軍のケビンから見た第二次ハフマン紛争。上級者におすすめ。,"The Second Huffman Conflict, as seen through the eyes of Lieutenant Kevin Greenfield of the U.C.S. military.
 Recommended for experienced players."
 ui_more_details,1,查看詳細參數,詳細を開く,More details
 ui_exp,1,經驗值 (EXP),Exp,Exp
@@ -23306,7 +23306,7 @@ ui_position,1,安裝位置,Position,Position
 ui_hand,1,手,Hand,Hand
 ui_shoulder,1,肩,Shoulder,Shoulder
 ui_edit,1,整備改造,Edit,Edit
-ui_machine,1,機甲機體,Machine,Machine
+ui_machine,1,機體,Machine,Machine
 ui_select_vehicle,1,選擇需要進行整備的機甲。,セットアップする機体を選択。,Select Vehicle to set up.
 ui_select_parts,1,選擇部件,Select parts,Select parts
 ui_currently_equipped,1,當前裝備搭載：,現在装備中：,Currently equipped:
@@ -23325,10 +23325,10 @@ ui_target,1,攻擊目標,ターゲット,Target
 ui_your_data,1,我方機體數據,自機の情報,Your Data
 ui_enemy_data,1,敵方機體數據,敵機の情報,Enemy Data
 ui_ace_pilot,1,王牌機師,エースパイロット,Ace Pilot
-ui_unit,1,作戰單位,ユニット,Unit
-ui_normal_units,1,常規作戰單位,ノーマルユニット,Normal Units
+ui_unit,1,部隊,ユニット,Unit
+ui_normal_units,1,常規部隊,ノーマルユニット,Normal Units
 ui_boss_units,1,要塞首領單位,ボスユニット,Boss Units
-ui_supply_trucks,1,后勤補給車,補給車,Supply Trucks
+ui_supply_trucks,1,後勤補給車,補給車,Supply Trucks
 ui_commander,1,戰術指揮官,コマンダー,Commander
 ui_attacker,1,突擊前鋒,アタッカー,Attacker
 ui_autopilot,1,自律巡航AI,オートパイロット,Auto Pilot
@@ -23363,7 +23363,7 @@ ui_beretta,1,貝雷塔,ベレッタ,Baretta
 ui_border_patrol,1,邊境巡邏防衛隊,警備隊,Border Patrol
 ui_chopper_pilot,1,武裝直升機駕駛員,ヘリパイロット,Chopper Pilot
 ui_commander_miller,1,米勒指揮官,ミラー司令官,Commander Miller
-ui_convoy_leader,1,后勤運輸車隊長,輸送車兵,Convoy Leader
+ui_convoy_leader,1,後勤運輸車隊長,輸送車兵,Convoy Leader
 ui_convoy_messager,1,運輸通訊聯絡兵,郵送メッセンジャー,Convoy Messager
 ui_gene,1,基恩,ジーン,Gene
 ui_guard,1,警備衛兵,Guard,Guard
@@ -23382,11 +23382,11 @@ ui_ocu_engenieer_3,1,O.C.U. 工兵3,O.C.U工兵3,O.C.U. Engineer 3
 ui_ocu_officer,1,O.C.U. 指揮官,O.C.U隊長,O.C.U. Officer
 ui_ocu_pilot,1,O.C.U. 機甲機師,O.C.Uパイロット,O.C.U. Pilot
 ui_ocu_prisoner,1,O.C.U. 戰俘,O.C.Uの捕虜,O.C.U. Prisoner
-ui_ocu_recruit,1,O.C.U. 新兵機師,O.C.U兵士,O.C.U. Recruit
-ui_ocu_scout,1,O.C.U. 偵察機師,O.C.U偵察兵,O.C.U. Scout
+ui_ocu_recruit,1,O.C.U. 士兵,O.C.U兵士,O.C.U. Recruit
+ui_ocu_scout,1,O.C.U. 偵察兵,O.C.U偵察兵,O.C.U. Scout
 ui_officer,1,U.S.N. 軍官,U.S.N.隊長,Officer
 ui_peseta_comms,1,佩塞塔前沿通信兵,ペセタ通信回線,Peseta Comms
-ui_pmo_officer,1,和平調停軍 (PMO) 軍官,恒平和調停軍の隊長,PMO Officer
+ui_pmo_officer,1,和平調停軍 (PMO) 指揮官,恒平和調停軍の隊長,PMO Officer
 ui_pmo_soldier,1,和平調停軍 (PMO) 士兵,恒平和調停軍の兵士,PMO Soldier
 ui_scientist,1,科研研究員,研究者,Scientist
 ui_security_ai,1,安防自律AI核心,システム,Security AI
@@ -23395,7 +23395,7 @@ ui_spec_ops_agent,1,特種作戰特工,特殊部隊,Spec Ops Agent
 ui_steya,1,斯蒂亞,Steiya,Steya
 ui_ucs_commander,1,U.S.N. 戰術指揮官,U.S.N.司令官,U.C.S. Commander
 ui_ucs_comms,1,U.S.N. 通信兵,U.S.N.通信兵,U.C.S. Comms
-ui_ucs_officer,1,U.S.N. 軍官,U.S.N.隊長,U.C.S. Officer
+ui_ucs_officer,1,U.S.N. 指揮官,U.S.N.隊長,U.C.S. Officer
 ui_villager,1,聚落村民,村人,Villager
 ui_zabia,1,扎比亞,Zabia,Zabia
 ui_set_quantity,1,設定購買數量,数量を設定,Set quantity
@@ -23411,7 +23411,7 @@ ui_attack,1,攻擊,Attack,Attack
 ui_select_weapon,1,選擇武器,Select weapon,Select weapon
 ui_item_list,1,道具清單,Item list,Item list
 ui_inaccessible,1,無法通行,アクセス不能,Inaccessible
-ui_skills,1,戰鬥技能,Skills,Skills
+ui_skills,1,技能,Skills,Skills
 ui_atk,1,攻擊力,Atk,Atk
 ui_cmd,1,指令,Cmd,Cmd
 ui_resupply,1,重新補給,Resupply,Resupply
@@ -23611,13 +23611,13 @@ ui_vehicle_data,1,機體技術數據,VEHICLE DATA,VEHICLE DATA
 ui_bet,1,鬥技場下注,BET,BET
 ui_acid,1,酸性腐蝕,ACID,ACID
 ui_empty_string,0,,,
-ui_difficulty_05,1,新兵入伍 (極易),RECRUIT,RECRUIT
-ui_difficulty_10,1,下士機師 (標準),CORPORAL,CORPORAL
-ui_difficulty_12,1,軍士老兵 (稍難),SERGEANT,SERGEANT
-ui_difficulty_15,1,中尉精銳 (硬核),LIEUTENANT,LIEUTENANT
-ui_difficulty_20,1,上尉王牌 (極難),CAPTAIN,CAPTAIN
-ui_difficulty_50,1,上校狂暴 (噩夢),COLONEL,COLONEL
-ui_difficulty_100,1,將軍毀滅 (極限),GENERAL,GENERAL
+ui_difficulty_05,1,新兵 (極易),RECRUIT,RECRUIT
+ui_difficulty_10,1,下士 (標準),CORPORAL,CORPORAL
+ui_difficulty_12,1,軍士 (稍難),SERGEANT,SERGEANT
+ui_difficulty_15,1,中尉 (硬核),LIEUTENANT,LIEUTENANT
+ui_difficulty_20,1,上尉 (極難),CAPTAIN,CAPTAIN
+ui_difficulty_50,1,上校 (噩夢),COLONEL,COLONEL
+ui_difficulty_100,1,將軍 (極限),GENERAL,GENERAL
 ui_lang_name_en,0,English,English,English
 ui_lang_name_jp,1,日本語,日本語,日本語
 ui_lang_name_pl,0,Polski,Polski,Polski
@@ -23630,7 +23630,7 @@ ui_lang_name_zh,1,繁體中文,繁體中文,繁體中文
 ui_skip_bracket,1,略過,(Skip),(Skip)
 ui_the_end,1,完 (THE END),THE END,THE END
 ui_repair,1,戰地修復,REPAIR,REPAIR
-ui_repair_desc,1,修復受損的機甲部件。,壊れたパーツを修理・回復する。,Restores or repairs damaged parts.
+ui_repair_desc,1,修復受損的機體部件。,壊れたパーツを修理・回復する。,Restores or repairs damaged parts.
 ui_left_arm_long,1,左手,左手,Left Arm
 ui_right_arm_long,1,右手,右手,Right Arm
 ui_legs_long,1,足部,脚部,Legs
@@ -23662,7 +23662,7 @@ msg_save,1,保存當前進度,保存,Save
 msg_back,1,返回上一層,戻る,Back
 msg_invalid_name,1,無效的機體名稱,無効な名前,Invalid name
 msg_pilot,1,機師,パイロット,Pilot
-msg_skills,1,戰鬥技能,スキル,Skills
+msg_skills,1,技能,スキル,Skills
 ui_rest,1,整修休養,Rest,Rest
 cmd_resume,1,繼續行動,続ける,Resume
 cmd_retreat,1,撤退,撤退,Retreat
@@ -23670,7 +23670,7 @@ ui_ba_mine,1,機甲地雷 (B.A. Mine),B.A. Mine,B.A. Mine
 ui_infinity,1,∞,∞,∞
 ui_confirm,1,確認,Confirm,Confirm
 cmd_are_you_sure,1,確定執行？,本当によろしいですか？,Are you sure?
-msg_machine_status,1,機甲狀態,機体のステータス,Machine Status
+msg_machine_status,1,機體狀態,機体のステータス,Machine Status
 cmd_movement,1,移動力,移動力,Movement
 msg_general,1,綜合概述,一般,General
 ui_tilt,1,傾斜,BLUR,BLUR
@@ -24037,7 +24037,7 @@ ui_name_onne,1,萊拉,Layla,Layla
 ui_name_atak,1,突擊前鋒,Attacker,Attacker
 ui_name_mssa,1,長程飛彈手,Missileer,Missileer
 ui_name_comm,1,戰術指揮官,Commander,Commander
-ui_name_supp,1,后勤補給車,輸送機,Carrier
+ui_name_supp,1,後勤補給車,輸送機,Carrier
 ui_name_griff,1,格里夫,Griff,Griff
 ui_name_morgan,1,摩根,Morgan,Morgan
 ui_name_wolter,1,沃爾特,Wolter,WALTER
@@ -24212,17 +24212,17 @@ ui_mech_type_150,1,Type 150,TYPE 150,TYPE 150
 ui_mech_dasler,1,Dasler,DASLAR,DASLER
 ui_mech_big_bone,1,大骨,Big Born,BIG BONE
 ui_mech_death,1,死神,Death,DEATH
-ui_mech_supply_truck,1,后勤補給車,Supply Car,SUPPLY TRUCK
+ui_mech_supply_truck,1,後勤補給車,Supply Car,SUPPLY TRUCK
 ui_mech_lich,1,里奇,Richter,LICH
-ui_mech_supply_truck_2D,1,后勤補給車,Supply Car,SUPPLY TRUCK
+ui_mech_supply_truck_2D,1,後勤補給車,Supply Car,SUPPLY TRUCK
 ui_mech_natural,1,自然,Natural,NATURAL
 ui_mech_death_2F,1,死神,Death,DEATH
-ui_mech_supply_truck_30,1,后勤補給車,Supply Car,SUPPLY TRUCK
+ui_mech_supply_truck_30,1,後勤補給車,Supply Car,SUPPLY TRUCK
 ui_mech_sakata_type11ds,1,坂田 11DS型,SAKATA TYPE11DS,SAKATA TYPE11DS
 ui_mech_armored_car,1,裝甲車,Armored Car,ARMORED CAR
 ui_mech_world_peace,1,世界和平,PEACE of WORLD,WORLD PEACE
 ui_mech_death_master,1,死神領主,Death Master,DEATH MASTER
-ui_mech_supply_truck_35,1,后勤補給車,Supply Car,SUPPLY TRUCK
+ui_mech_supply_truck_35,1,後勤補給車,Supply Car,SUPPLY TRUCK
 ui_mech_tendus,1,Tendus,TENDUS,TENDUS
 ui_mech_zora_3a_37,1,佐拉-3A,ZOLA-3A,ZORA-3A
 ui_mech_husky_mk_iii,1,Husky Mk.III,HUSKY Mk.III,HUSKY MK.III
@@ -24315,7 +24315,7 @@ ui_mech_jeep,1,吉普車,Spyjeep,JEEP
 ui_mech_phantom,1,Phantom,PHANTOM,PHANTOM
 ui_mech_light_tank,1,輕型戰車,LIGHT TANK,LIGHT TANK
 ui_mech_radar_dome,1,對空雷達罩,RadarDome,RADAR DOME
-ui_mech_m_b_t,0,主戰坦克 (M.B.T.),M.B.T.,M.B.T.
+ui_mech_m_b_t,0,主戰戰車 (M.B.T.),M.B.T.,M.B.T.
 ui_mech_k_o_n_g,0,K.O.N.G.,K.O.N.G.,K.O.N.G.
 ui_mech_aah34c,0,AAH34C,AAH34c,AAH34C
 ui_mech_mad_lecter,1,暴走雷克特,Mad lecter,MAD LECTER
@@ -24357,7 +24357,7 @@ in the full game"
 msg_d_endingscreen,1,"體驗版試玩內容到此結束。
 感謝您的體驗與並肩作戰，隊長！
 
-若您購買並繼續游玩完整正式版，此處的存檔記錄將被完整繼承！
+若您購買並繼續遊玩完整正式版，此處的存檔記錄將被完整繼承！
 
 您是否準備好接受接下來的更高挑戰？","体験版はここで終了です。
 隊長、プレイしていただきありがとうございます！
@@ -24384,7 +24384,7 @@ ui_wrapper_controllerdisconnectedSIEA,1,控制器已斷開連接。請重新連�
 ui_wrapper_signout_title,1,登出帳戶,サインアウト,Sign out
 ui_wrapper_signout,1,您已登出當前帳戶。請重新登錄以繼續遊戲。,プレイを続けるには、再度サインインしてください。,You have been signed out. Please sign in again to continue playing.
 ui_wrapper_saveerror_title,1,保存失敗,セーブに失敗しました,Saving failed
-ui_wrapper_saveerror,1,保存遊戲進度時發生錯誤。您可以忽略此警告，但當前游玩進度將無法保存！,ゲームのセーブ中にエラーが発生しました。 このメッセージは無視してかまいませんが、進行状況はセーブされません。,"Error while saving game. You may ignore this warning, but your progress will not be saved!"
+ui_wrapper_saveerror,1,保存遊戲進度時發生錯誤。您可以忽略此警告，但當前遊玩進度將無法保存！,ゲームのセーブ中にエラーが発生しました。 このメッセージは無視してかまいませんが、進行状況はセーブされません。,"Error while saving game. You may ignore this warning, but your progress will not be saved!"
 ui_wrapper_loaderror_title,1,讀取失敗,読み込みに失敗しました,Loading failed
 ui_wrapper_loaderror,1,讀取存檔數據時發生錯誤。,セーブデータの読み込み中にエラーが発生しました。,Error while loading save game.
 ui_wrapper_deleteerror_title,1,刪除失敗,削除に失敗しました,Delete failed
@@ -24397,7 +24397,7 @@ ui_wrapper_corrupted_title,1,存檔數據已損壞,セーブデータが破損�
 ui_wrapper_savecorrupted,1,無法保存遊戲數據。已損壞的存檔記錄將被移除！,セーブデータの保存ができません。 破損したセーブデータは削除されます。,Unable to save game data. Corrupted game data will be removed!
 ui_wrapper_loadcorrupted,1,無法讀取遊戲數據。已損壞的存檔記錄將被移除！,セーブデータをを読み込むことができません。破損したセーブデータは削除されます。,Unable to load game data. Corrupted game data will be removed!
 ui_wrapper_outofspace,1,存儲空間不足。請預留至少 {0}KB 的可用空間。您可以忽略此警告，但當前進度將無法保存！,ゲームを保存するための十分なスペースがありません。最低でも{0}KBの空き容量を確保してください。 このメッセージは無視してかまいませんが、進行状況はセーブされません。,"There is not enough space to save the game. Please make at least {0}KB of free space. You may ignore this warning, but your progress will not be saved!"
-ui_wrapper_outofspace_ps4,1,存儲空間不足。您可以忽略此警告，但當前游玩進度將無法保存！,ゲームを保存するための十分なスペースがありません。このメッセージは無視してかまいませんが、進行状況はセーブされません。,"There was not enough space to save the game. You may ignore this warning, but your progress will not be saved!"
+ui_wrapper_outofspace_ps4,1,存儲空間不足。您可以忽略此警告，但當前遊玩進度將無法保存！,ゲームを保存するための十分なスペースがありません。このメッセージは無視してかまいませんが、進行状況はセーブされません。,"There was not enough space to save the game. You may ignore this warning, but your progress will not be saved!"
 ui_wrapper_options_savecorrupted,1,無法保存系統設置。已損壞的設置數據將被移除！,設定を保存できません。 破損したデータは削除されます。,Unable to save settings data. Corrupted game data will be removed!
 ui_wrapper_options_loadcorrupted,1,無法讀取系統設置。已損壞的設置數據將被移除！,設定を読み込むことができません。 破損したデータは削除されます。,Unable to load settings data. Corrupted game data will be removed!
 ui_wrapper_options_outofspace,1,存儲空間不足。請預留至少 {0}KB 的可用空間。,ゲームを保存するための十分なスペースがありません。最低でも{0}KBの空き容量を確保してください。,There is not enough space to save game. Please make at least {0}KB free space.
@@ -24424,7 +24424,7 @@ ui_wrapper_unrecovable_error,1,發生了不可恢復的異常錯誤。請重啟�
 ui_wrapper_controller,1,控制器,Controller,Controller
 ui_wrapper_controller_ps4,1,DUALSHOCK®4 無線控制器,ワイヤレスコントローラーDUALSHOCK®4,DUALSHOCK®4 wireless controller
 ui_wrapper_switch_profile,1,切換用戶配置,プロファイルの切り替え,Switch profile
-ui_wrapper_guest_account,1,當前所選帳戶不支持寫入保存進度。游玩進度將不會被保存。,選択されたアカウントでは、データの保存ができません。進行状況は保存されません。,The account you selected does not allow saving the game. Your progress will not be saved.
+ui_wrapper_guest_account,1,當前所選帳戶不支持寫入保存進度。遊玩進度將不會被保存。,選択されたアカウントでは、データの保存ができません。進行状況は保存されません。,The account you selected does not allow saving the game. Your progress will not be saved.
 ui_wrapper_yes,1,是,Yes,Yes
 ui_wrapper_no,1,否,No,No
 ui_wrapper_continue,1,繼續操作？,続けますか？,Continue?
@@ -24689,7 +24689,7 @@ msg_qspaused,1,遊戲暫停期間無法執行即時存檔。,ゲームを一時�
 msg_qlpaused,1,遊戲暫停期間無法執行即時讀取。,ゲームを一時停止しているときにクイックロードはできません。,You cannot quickload when the game is paused
 ui_system,1,系統,システム,System
 ui_camera,1,鏡頭視角,カメラ,Camera
-ui_mission,1,作戰任務,ミッション,Mission
+ui_mission,1,任務,ミッション,Mission
 ui_undo,1,撤銷機體移動,移動を戻す,Undo Move
 ui_switchleft,1,切換標籤頁：左,タブ切り替え：左,Switch Tab: Left
 ui_switchright,1,切換標籤頁：右,タブ切り替え：右,Switch Tab: Right
@@ -24697,14 +24697,14 @@ ui_htpcity,1,整備基地城鎮,街,City
 ui_htpsoundtest,1,音樂鑑賞測試,サウンドテスト,Sound Test
 ui_htpcamerareset,1,鏡頭視野重置居中,カメラのリセット,Reset camera
 ui_htphelp,1,戰術指引幫助,ヘルプ,Help
-ui_htppilots,1,機師人事檔案,パイロット,PILOTS
+ui_htppilots,1,機師資料,パイロット,PILOTS
 msg_tip1,1,切忌分散我方兵力。應集結全隊優勢兵力包圍敵機，逐個擊破殲滅。,"味方のユニットで敵を包囲し、一機ずつ倒すことが有効です。
 自分の戦力は分散させないようにしましょう。","Don't split your forces. Eliminate enemies one by one, surrounding them with your entire group of units."
 msg_tip2,1,戰鬥中擊毀敵機的雙臂或腿部，能大幅削弱其威脅度，隨后可立即轉移火力壓制下一個敵人。,"敵との戦闘中に、相手の腕や脚のパーツを破壊することができます。
 その結果、ユニットの戦闘における危険度を軽減し、次の敵に集中することができます。","If you destroy your opponent's arms or legs, they become less of a threat to you. You can then move your focus onto the next set of enemies."
 msg_tip3,1,即使我方機甲失去了雙臂，也絕非毫無用處。可以用它卡位封鎖通道、為友軍抵擋傷害。,"あなたのユニットが腕を失っても、あきらめずに戦局を有利に進める方法を模索しましょう。
 戦場をブロックしたり、味方を守るするために活用することができます。","If your unit has lost its arms, this does not mean that it becomes useless on the battlefield. Use it to block fields and shield allies."
-msg_tip4,1,若敵機某部位耐久度已所剩無幾，使用多發連射型武器能極大提高命中概率，確保補刀成功。,"敵機の一部を破壊するのが困難な場合は、複数回攻撃可能な武器を活用すると効果的です。
+msg_tip4,1,若敵機某部位耐久度已所剩無幾，使用多發連射型武器能極大提高命中機率，確保補刀成功。,"敵機の一部を破壊するのが困難な場合は、複数回攻撃可能な武器を活用すると効果的です。
 一発が当たらなくても、複数回攻撃することで命中率を高めることができます。","If you are bordering on destroying a part of an enemy machine, use a multiple-attack weapon. This increases the chance of bullets hitting the target."
 msg_tip5,1,在面對裝甲完好的敵人時，使用單發大威力武器往往能對其單一關鍵部位造成毀滅性重創。,"相手にまだダメージを与えていない場合は、
 単発の武器を使って敵ユニットの一部を狙い撃ちし、
@@ -24735,11 +24735,11 @@ msg_tip19,1,機甲若在補給車相鄰地塊結束行動回合，受損部件�
 ダメージを受けたパーツが徐々に回復します。","If you finish a Wanzer turn next to a supply truck, its damaged parts will slowly regenerate."
 msg_tip20,1,若機體難以快速突進接近敵陣，即使不擅長遠距離攻擊，也建議裝備肩扛式飛彈發射器進行長程消耗。,"あるユニットに対して良い対処ができない場合は、ランチャーを装備するようにしましょう。
 長距離武器の専門でなくても役に立ちます。","If you do not have a good approach towards a unit, make sure it is equipped with a launcher – even if it does not specialize in long weapons."
-msg_tip21,1,為每名機師確立單一明確的戰鬥專精方向（格鬥/突擊/長程），能大幅加快強力核心技能的解鎖與觸發概率。,"各ユニットの専門分野は一つに絞りましょう。それによって、攻撃時の変換率が向上し、
+msg_tip21,1,為每名機師確立單一明確的戰鬥專精方向（格鬥/突擊/長程），能大幅加快強力核心技能的解鎖與觸發機率。,"各ユニットの専門分野は一つに絞りましょう。それによって、攻撃時の変換率が向上し、
 ユニークなスキルを開放することができます。",Focus on one specialization for each unit. This will give you better conversion rates when attacking while unlocking unique skills.
 msg_tip22,1,在完全擊毀敵機軀干 (BODY) 之前，先將其雙臂與雙腿全部擊碎，可榨取極丰厚的人物經驗值。,"ボディ以外のパーツを先に破壊することで、経験値を多く入手でき、
 ユニットのレベルアップを狙えます。",You can obtain more experience and improve your unit's level by destroying the parts other than the body before you eliminate it completely.
-msg_tip23,1,切忌過度囤積現金資金。一旦有新式機甲部件入庫，應第一時間用于升級主力機甲。,現金をため込まず、機会があればヴァンツァーをアップグレードしておきましょう。,Don't hoard cash. Upgrade your Wanzers whenever the opportunity arises.
+msg_tip23,1,切忌過度囤積現金資金。一旦有新式機體部件入庫，應第一時間用于升級主力機甲。,現金をため込まず、機会があればヴァンツァーをアップグレードしておきましょう。,Don't hoard cash. Upgrade your Wanzers whenever the opportunity arises.
 msg_tip24,1,如果軍費資金見底，可以前往鬥技場下注決鬥，或出售庫房中淘汰替換的舊裝備換取資金。,"資金が不足しそうな場合は、アリーナを訪れたり、
 使わなくなった装備を売却することをおすすめします。","If you are in danger of running out of funds – visit the arena or sell your old, unused equipment."
 msg_tip25,1,利用機體塗裝配色為各戰術分隊打上鮮明標記，打造極具辨識度的專屬傭兵團風格。,自分の好きな色でヴァンツァーをカスタマイズして、オリジナルの部隊を作ってみましょう。,Use Wanzer paint colors to label units according to your own scheme.
@@ -24837,7 +24837,7 @@ ui_actdesc_ocu8,1,追擊並全殲自自由城撤退的敵軍殘部,退却する�
 ui_actdesc_ocu9,1,肅清雲雀谷廢墟周邊的殘存敵軍,都市廃墟から敵の軍隊を排除する,Clear the ruins of the city from the enemy unit
 ui_actdesc_ocu10,1,解救陷入包圍的基斯與J.J.,キースとJ.J.を罠から解放する,Pull Keith and J.J. out of the ambush
 ui_actdesc_ocu11,1,殲滅梅爾河邊境巡邏防衛隊,国境にいる敵のパトロール隊を撃破する,Destroy the enemy patrol at the border
-ui_actdesc_ocu12,1,切斷U.S.N.防線的戰術后勤補給線,U.S.Nの防衛ラインを物資の供給から切り離す,Cut off the U.C.S. defense line from supplies
+ui_actdesc_ocu12,1,切斷U.S.N.防線的戰術後勤補給線,U.S.Nの防衛ラインを物資の供給から切り離す,Cut off the U.C.S. defense line from supplies
 ui_actdesc_ocu13,1,強行橫渡帕倫塔沙漠防線,砂漠を越える,Cross the desert
 ui_actdesc_ocu14,1,搜尋並截獲U.S.N.脫逃機師,敵軍の脱走兵を捕らえる,Take the deserter of the enemy army
 ui_actdesc_ocu15,1,攻破摩根要塞的核心防禦陣列,モーガン要塞を制圧する,Take control of Morgan Fortress
@@ -24935,7 +24935,7 @@ msg_hotseat,1,本地PVP遊戲，共享一個控制器。,1つのコントロー�
 msg_hotseatSIEA,1,本地PVP遊戲，共享一個控制器。,1つのコントローラーを使ったローカルPVPバトル。,"Local PVP game, sharing one controller."
 msg_2controllerspvp,1,使用兩個控制器進行本地PVP遊戲。,2つのコントローラーを使ったローカルPVPバトル。,Local PVP game using two controllers.
 msg_2controllerspvpSIEA,1,使用兩個控制器進行本地PVP遊戲。,2つのコントローラーを使ったローカルPVPバトル。,Local PVP game using two controllers.
-msg_vsai,1,游玩單人傭兵戰術場景。,Mercenariesのシナリオをシングルでプレイする。,Play single-player mercenary scenarios.
+msg_vsai,1,遊玩單人傭兵戰術場景。,Mercenariesのシナリオをシングルでプレイする。,Play single-player mercenary scenarios.
 msg_customize,1,自定義小規模戰術演習的戰場環境條件。,PVP戦闘用に戦場の条件をカスタマイズする。,Customize the conditions on the battlefield for PVP skirmishes.
 msg_exitcustomize_warning,1,"退出自定義設置？
 所做變動將不會被保存。","カスタマイズをやめますか？
@@ -24944,7 +24944,7 @@ Your changes will not be saved."
 msg_resetprogress,1,重置傭兵模式下的所有挑戰進度。,MERCENARIESモードの進行状況をリセット。,Progress reset in MERCENARIES mode.
 msg_resetprogress_warning,1,確定要徹底刪除傭兵模式下的所有進度嗎？執行此操作將失去所有已解鎖的內容！,Mercenariesモードの進行状況を本当に削除してもよろしいですか？ 削除するとアンロックしたコンテンツも失われます。,"Are you sure you want to delete the progress in Mercenaries mode? By selecting this option, you will lose the unlocked content."
 ui_battlescale,1,小隊編成規模,Team size,Team size
-ui_itemspawnrate,1,道具空投刷新概率,Item Spawn Rate,Item Spawn Rate
+ui_itemspawnrate,1,道具空投刷新機率,Item Spawn Rate,Item Spawn Rate
 ui_resupplypoints,1,彈藥補給箱數量,Resupply points,Resupply points
 ui_dlc_item,1,戰術補給箱,Supply box,Supply box
 ui_dlc_resupply,1,彈藥補給箱,Ammunition box,Ammunition box
@@ -24979,8 +24979,8 @@ msg_main_popup2,1,在單人模式中迎戰全新的強敵，親歷六段跌宕�
 msg_main_popup3,1,在本地多人遊戲中與好友展開緊張刺激的輪抽選拔演習！在十餘名個性鮮明的特戰機師中組建專屬戰術小隊，于六張全新交鋒地圖中決一雌雄，證明誰才是算無遺策的戰場戰術大師！,"ローカルマルチプレイヤーモードでは、ドラフト形式で友達と対戦できます。
 12人以上の個性豊かなパイロットの中から自分のチームを編成し、新たに作成された6つのマップから1つを選び、お互いの実力を試そう。
 どちらがより優れた戦術家であるかを証明しよう。","Challenge a friend to a draft skirmish in local multiplayer mode. Create teams, choosing from over a dozen unique pilots, select one of the six newly created maps and go head-to-head to see who proves to be the better tactician and who will suffer humiliating defeat."
-msg_merc_popup1,1,【傭兵模式 (MERCENARIES) 游玩指南】,MERCENARIESモードの遊び方,How to play in MERCENAIRES mode
-msg_merc_popup2,1,"・ 根據各作戰任務的地形特點，靈活挑選合適的傭兵編組出擊。
+msg_merc_popup1,1,【傭兵模式 (MERCENARIES) 遊玩指南】,MERCENARIESモードの遊び方,How to play in MERCENAIRES mode
+msg_merc_popup2,1,"・ 根據各任務的地形特點，靈活挑選合適的傭兵編組出擊。
 ・ 傭兵所搭乘的機甲不可改裝，出擊前務必仔細檢查其武裝配置。
 ・ 研讀各位傭兵的履歷檔案，將有助于更深入地掌握戰場態勢。
 ・ 任務支持反復挑戰。嘗試以最短回合數刷新最高戰績！
@@ -25132,7 +25132,7 @@ msg_scenarioname_0,1,情報顯示該處工廠早已廢棄，但其地下室內�
 msg_scenarioname_1,1,風景如畫的自然山谷地段。在意外發掘出舊時代機甲殘骸之后，雲貴高原軍方立刻封鎖了周邊區域。本地圖交戰距離較短，地形崎嶇險峻，且密布水系淺灘。,美しい自然スポット。ヴァンツァーの残骸が発掘された後、周辺の立ち入りは禁止された。この場所は、マップ上の距離は短く、操縦が険しい地形や水タイルがたくさんある。,"A scenic hillside full of natural beauty, secured by Yúnguì Gāoyuán officials after accidentally stumbling upon the remains of Wanzers. Close range, challenging terrain, water fields."
 msg_scenarioname_2,1,由哈夫曼島當地人搭建的集裝箱聚落，內部通道錯綜復雜宛如迷宮。若機甲底盤配置不當，在穿行攀爬障礙或涉足灼熱沙地時極易暴露出破綻，遭到集裝箱頂部的火力壓制。,このコンテナ集落は、狭い通路が多数ある複雑な迷路となっている。効率よく移動するには、適した脚パーツを装着する必要がある。砂に埋もれたり、敵の攻撃にさらされたりする可能性があるため注意が必要。,A small Huffman Island settlement featuring a complex maze of paths weaving between containers. Adequate legs are key: insufficient equipment will expose Wanzers to enemy fire as they attempt to traverse steep obstacles or struggle through the burning desert sand.
 msg_scenarioname_3,1,深入遠離人煙的U.S.N.極北荒原大陸，隱匿于此的極地科研設施是高度保密的禁地。必須派遣裝備履帶或氣墊懸浮底盤的機甲穿越冰封地表，或依賴高機動雙足底盤翻越冰川。,U.S.N.本土のはるか北、そこには科学施設がひっそりと佇んでいる。秘密の研究内容を外部に漏らさないため、そしてこの場所を守るために傭兵達が雇われた。効率よく氷を横断できるようタンク型、またはホバー型の脚パーツを装備した部隊を送り出そう。もしくはクライミングに特化した起動兵器で氷河を渡ってみよう。,"We’re travelling far north of the U.C.S. mainland, where the science facility is hidden far away. Research conducted here must not be unearthed, so mercenaries were hired to protect the area. Use units with treads or floating legs to traverse the ice. Or focus on using good climbing legs and cross the glacier above."
-msg_scenarioname_4,1,位于哈夫曼島隱祕山谷腹地的稻田梯田區域。戰場內涵蓋大量高防禦加成地形，且梯田多處被深水阻隔，高度推荐配置氣墊懸浮底盤出擊作戰！,ハフマン島の美しい渓谷の水田地帯での戦闘。フィールドには様々な地形効果のマスが存在します。一部の畑は冠水しているため、ホバー型のユニットを使うことをお勧めします。,"Fight through rice fields in the beautiful valley of Huffman Island. You’ll find many different types of terrain here with varying cover values. Some places are surrounded by water, so hover units are worth having!"
+msg_scenarioname_4,1,位于哈夫曼島隱祕山谷腹地的稻田梯田區域。戰場內涵蓋大量高防禦加成地形，且梯田多處被深水阻隔，高度推薦配置氣墊懸浮底盤出擊作戰！,ハフマン島の美しい渓谷の水田地帯での戦闘。フィールドには様々な地形効果のマスが存在します。一部の畑は冠水しているため、ホバー型のユニットを使うことをお勧めします。,"Fight through rice fields in the beautiful valley of Huffman Island. You’ll find many different types of terrain here with varying cover values. Some places are surrounded by water, so hover units are worth having!"
 msg_scenarioname_5,1,坂田工業坐落于繁華都市核心地帶的研發大樓。由于在地面交戰勢必波及周邊平民，機動小隊需在文明城市之上的連綿樓頂展開高速潛入與無聲突擊。地勢開闊平坦，利于高速突擊機動。,サカタインダストリィのオフィスビルのひとつは市の中心部に位置している。この市街地では、民間人を危険にさらさず移動するのは極めて難しいため、ここでの戦闘は、部隊が屋根の上を渡って移動する、素早く静かなミッションとなるだろう。平坦な地形で、高速で移動できる分隊に適している。,"One of Sakata’s office buildings is located in the center of the city. This urban area is difficult to maneuver in without creating a danger to civilians. Battles here are fast and silent, with units moving across the rooftops above the civilian world. Flat terrain, good for fast-moving squads."
 msg_scenarioname_random,1,準備好迎接挑戰了嗎？讓命運來決定吧！,出撃する準備はいいですか？勝敗は運命に任せよう！,Ready for a challenge? Let fate decide!
 msg_lockedscenario_pvp,1,完成單人模式中的僱傭兵場景，解鎖更多戰場！,Mercenariesシナリオをシングルプレイモードでクリアし、さらなる戦場をアンロックしよう！,Complete the Mercenary Scenarios in single-player mode to unlock additional battlefields!
@@ -25356,7 +25356,7 @@ msg_dlc1_7,1,"\NM01：
 彼らはここで武器を作っているのか？","\NM01:
 Do they make weapons here?"
 msg_dlc1_8,1,"\NM01：
-看那些集裝箱物資箱——里面或許能回收搜刮到有用的戰術零件！","\NM01:
+看那些集裝箱物資箱——裡面或許能回收搜刮到有用的戰術零件！","\NM01:
 木箱か…中に何か役に立つものが見つかるかもしれない！","\NM01:
 Crates – we might find something useful in them!"
 msg_dlc1_9,1,"\NM01：
@@ -25368,7 +25368,7 @@ msg_dlc1_10,1,"\NM01：
 任務完了。さっさと戻って報告しよう。","\NM01:
 Mission accomplished. Let’s go back and report in."
 msg_dlc1_11,1,"魯絲：
-那處地下工場……我以前在暗部執行任務時見過類似的設施。這群武裝人員背后的金主，絕非等閒之輩。這座島上恐怕還潛藏著更多這樣的祕密巢穴……","ルース:
+那處地下工場……我以前在暗部執行任務時見過類似的設施。這群武裝人員背後的金主，絕非等閒之輩。這座島上恐怕還潛藏著更多這樣的祕密巢穴……","ルース:
 あの工場…似たような場所を見たことあるよ。この人たちの雇い主はどこかの組織だと思う。
 きっと島にはこういう施設がもっと増えるだろうね…","Ruth:
 This factory... I’ve seen places like this before. The force behind the recruitment of these people must be something big... 
@@ -25381,7 +25381,7 @@ msg_dlc1_12,1,"科瓦爾斯基指揮官：
 Your mission should have been a reconnaissance... but the client says your actions saved him a lot of trouble.
 As a result, we have been able to establish new contracts. Expect further missions any day now. Speaking of which... Would you like to visit Alaska?"
 msg_dlc1a_lob,1,"科瓦爾斯基指揮官：
-據最新密報，在那座廢棄工廠的地窖深處又檢測到了頻繁的武裝調動。如此肆無忌憚的公開動向背后必有蹊蹺……但眼下，先去把那幫狂妄的家夥徹底清除干淨！","コワルスキー指揮官:
+據最新密報，在那座廢棄工廠的地窖深處又檢測到了頻繁的武裝調動。如此肆無忌憚的公開動向背後必有蹊蹺……但眼下，先去把那幫狂妄的家夥徹底清除干淨！","コワルスキー指揮官:
 放棄された工場でさらなる活動が報告された。
 ここまであからさまな活動には何か意図を感じるが…ひとまず奴らを追い出すぞ。","Commander Kowalsky:
 More activity has been reported in the cellars of one of the abandoned factories. I have a feeling there's some purpose to this level of overt activity... but for now, let's get these guys out of there."
@@ -25390,7 +25390,7 @@ msg_dlc1a_1,1,"指揮官：
 侵入者だ！捕まえろ！","Enemy Commander:
 Intruders! Get them!"
 msg_dlc1a_2,1,"\NM01：
-敵方作戰單位現身！","\NM01:
+敵方部隊現身！","\NM01:
 敵の援軍が到着した！","\NM01:
 Hostiles are here!"
 msg_dlc1a_3,1,"\NM01：
@@ -25729,7 +25729,7 @@ msg_dlc2v3_48,1,"\NM01：
 あの機体…かなり老化しているな。","\NM01: 
 These machines... They look like someone hauled them from a junkyard."
 msg_dlc2v3_49,1,"義：
-時隔這麼多年工程突然被緊急叫停……背后的緣由唯有那一個！","イー:
+時隔這麼多年工程突然被緊急叫停……背後的緣由唯有那一個！","イー:
 これほどの年月が経って建設作業が中止された理由は、一つしかない。","Yi: 
 After all these years... There’s only one reason why they would halt the construction in this area."
 msg_dlc2v3_50,1,"義：
@@ -25795,7 +25795,7 @@ msg_dlc2v3_62,1,"\NM01：
 彼のヴァンツァー、同じ紋章が彫られた機体は、発掘現場にもあったな。","\NM01: 
 His Wanzer... We saw this emblem at the excavation site."
 msg_dlc2v3_63,1,"\NM01：
-別管閒事。肆意刺探與任務無關的陳年舊怨不會帶來任何好處。深淵背后的真相往往只會令人作嘔。","\NM01：
+別管閒事。肆意刺探與任務無關的陳年舊怨不會帶來任何好處。深淵背後的真相往往只會令人作嘔。","\NM01：
 放っておけ。
 関係のない話に首を突っ込んでも、何の意味もない。
 いらないことを知って幻滅するかもしれないぞ。","\NM01: 
@@ -25958,7 +25958,7 @@ msg_dlc4_4,1,"娜塔莎：
 ネイサン、どこにいるの？","Natasha:
 Nate, where are you?"
 msg_dlc4_5,1,"內森：
-在主控室地下核心！他們馬上就要搜過來了！快把外圍的敵方機甲全殲！一旦外圍被反包圍，里面的殘敵肯定會就范投降的！","ネイサン:
+在主控室地下核心！他們馬上就要搜過來了！快把外圍的敵方機甲全殲！一旦外圍被反包圍，裡面的殘敵肯定會就范投降的！","ネイサン:
 中だよ。今にも見つかりそうだ。外にいる部隊を倒してくれ。中にいる奴らも包囲されれば、僕たちを解放するだろう。","Nathan:
 Inside. They’re about to find me. Destroy the units outside. They’ll let us go once they’re surrounded."
 msg_dlc4_6,1,"內森：
@@ -25993,7 +25993,7 @@ msg_dlc4_13,1,"內森：
 …","Nathan:
 …"
 msg_dlc4_14,1,"內森：
-外面有重型機甲的液壓踏步聲……聽好了！務必全殲基地外圍的阻擊部隊！外圍一旦失守，里面的武裝人員絕對會動搖投降的！求求你們快點！","ネイサン:
+外面有重型機甲的液壓踏步聲……聽好了！務必全殲基地外圍的阻擊部隊！外圍一旦失守，裡面的武裝人員絕對會動搖投降的！求求你們快點！","ネイサン:
 足音が聞こえる。聞いてくれ。 外にいる部隊を倒してくれ。
 中にいる奴らも包囲されれば、僕たちを解放するだろう。急いでくれ！","Nathan:
 I can hear footsteps. Listen to me. You have to eliminate the units outside. They’ll surrender once they’re surrounded. Please hurry!"
@@ -26826,7 +26826,7 @@ msg_dlc_extra18,1,"指揮官：
 バカな！！！　この俺様がやられるだと！？","Enemy Commander:
 NO!!! How dare you... be better than me!!!???"
 msg_dlc_extra19,1,"\NM01：
-作戰任務完成。","\NM01: 
+任務完成。","\NM01: 
 任務完了。","\NM01: 
 Mission accomplished."
 msg_dlc_extra20,1,"辛迪加幹部：
@@ -26927,7 +26927,7 @@ msg_hlp_rot,1,雙指按在屏幕上順時針或逆時針旋轉，可自由調整
 msg_hlp_zoom,1,雙指在屏幕上向外張開或向內聚攏捏合，可拉近放大或拉遠縮放鏡頭視野。,二本の指でピンチイン・アウトすると、カメラが前後移動します。,Swipe two fingers from the edge of the screen to the center of the screen or from the center to the outside to change the camera's zoom.
 msg_hlp_closeundo,1,雙指輕點屏幕即可快速關閉當前窗口，或撤銷機甲尚未確認的移動指令。,画面を二本の指でタップすることでウィンドウを閉じたり、ユニットの移動を戻すことができます。,Tap the screen with two fingers to close the window or to undo the movement of the unit.
 ui_downloadtime,1,預計剩餘時間：,残り時間：,Time Remaining:
-ui_downloadwifi,1,數據下載可能需要耗費一定時間，具體取決于您的網路連接狀況。推荐在穩定的 Wi-Fi 環境下進行下載。,"インターネットの接続状況によっては、ダウンロードに時間がかかる場合があります。
+ui_downloadwifi,1,數據下載可能需要耗費一定時間，具體取決于您的網路連接狀況。推薦在穩定的 Wi-Fi 環境下進行下載。,"インターネットの接続状況によっては、ダウンロードに時間がかかる場合があります。
 安定した通信環境のWifi接続をお勧めします。",The download may take a while depending on your connection. A WiFi connection is recommended.
 ui_achievements,1,成就挑戰,実績,Achievements
 ui_title_ach30,1,首開紀錄,生産終了,END OF PRODUCTION
