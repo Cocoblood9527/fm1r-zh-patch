@@ -28,7 +28,7 @@ msg_bar_colo4,1,"神秘男子：
 \NM00だな。","Man in Shades:
 \NM00 Clive? We need to talk."
 msg_bar_colo5,1,"鬥技場之主：
-你是什麼人啊，隨便闖進來我會很困擾的。","闘技場の主：
+你是什麼人啊，可不能隨便闖進來啊！","闘技場の主：
 なんだいあんた、 勝手に入ってもらっちゃ 困るよ。","Arena Manager:
 Didn't you see the sign on the door?
 ""Authorized Personnel Only""! Get the hell out!"
@@ -37,7 +37,7 @@ msg_bar_colo6,1,"\NM00：
 だれだ、あんた。","\NM00:
 Hold on. Who are you?"
 msg_bar_colo7,1,"鬥技場之主：
-喂，輪到\NM00上場了。
+喂\NM00，輪到你上場了。
 快點過去吧。","闘技場の主：
 ほら、 \NM00の出番だ。 早くいきな。","Arena Manager:
 Come on, it's your turn on the Arena floor, \NM00.
@@ -23211,12 +23211,12 @@ ui_game_mode,1,遊戲模式,Game Mode,Game Mode
 ui_classic,1,經典,Classic,Classic
 ui_modern,1,現代,Modern,Modern
 ui_classic_soundtrack,1,經典配樂,クラシックなサウンドトラック,Classic Soundtrack
-ui_orthogonal_camera,1,相機正交視圖,平行投影,Orthogonal View of Camera
-ui_experience_fm,1,《前線任務》第一個遊戲首版經驗,原作「フロントミッションザ・ファースト」ならではの体験,Experience from the original Front Mission 1st game
+ui_orthogonal_camera,1,正交視圖,平行投影,Orthogonal View of Camera
+ui_experience_fm,1,《前線任務》原作遊戲體驗,原作「フロントミッションザ・ファースト」ならではの体験,Experience from the original Front Mission 1st game
 ui_remastered_soundtrack,1,重新灌錄的配樂,リマスターされたサウンドトラック,Remastered Soundtrack
-ui_perspective_view,1,相機鳥瞰視圖,透視投影,Perspective View of Camera
+ui_perspective_view,1,鳥瞰視圖,透視投影,Perspective View of Camera
 ui_freedom_camera,1,攝影機自由移動,カメラを自由に動かせる,Free camera movement
-ui_small_fixes,1,優化與錯誤修正,細かい修正・改善,Fixes and improvements
+ui_small_fixes,1,修正與改善,細かい修正・改善,Fixes and improvements
 ui_master,1,主音量,Master,Master
 ui_music,1,音樂音量,Music,Music
 ui_sfx,1,音效音量,SFX,SFX
@@ -23366,7 +23366,7 @@ ui_commander_miller,1,米勒指揮官,ミラー司令官,Commander Miller
 ui_convoy_leader,1,後勤運輸車隊長,輸送車兵,Convoy Leader
 ui_convoy_messager,1,運輸通訊聯絡兵,郵送メッセンジャー,Convoy Messager
 ui_gene,1,基恩,ジーン,Gene
-ui_guard,1,警備衛兵,Guard,Guard
+ui_guard,1,防禦,Guard,Guard
 ui_guard_in_prison,1,戰犯收容所守衛,刑務所の警備員,Guard in Prison
 ui_guerilla,1,反抗游擊隊,ゲリラ兵,Guerilla
 ui_herbert,1,赫伯特,Herbert,Herbert
@@ -23433,26 +23433,24 @@ ui_chaff,1,電子防害（雷）,Chaff,Chaff
 ui_acid_bomb,1,酸性蝕甲彈,Acid Bomb,Acid Bomb
 ui_smoke,1,煙霧（手雷）,Smoke,Smoke
 ui_flash,1,閃光（手雷）,Flash,Flash
-ui_repair_s,1,修理S,Repair S,Repair S
-ui_repair_m,1,修理M,Repair M,Repair M
-ui_repair_l,1,修理L,Repair L,Repair L
-ui_repair_sp,1,修理SP,Repair SP,Repair SP
+ui_repair_s,1,修復道具S,Repair S,Repair S
+ui_repair_m,1,修復道具M,Repair M,Repair M
+ui_repair_l,1,修復道具L,Repair L,Repair L
+ui_repair_sp,1,修復道具SP,Repair SP,Repair SP
 ui_mine,1,機甲地雷,B.A. MINE,B.A. MINE
 ui_enm,0,,,Enm
 ui_npc,0,,,Npc
-ui_play_modern,1,進入現代重製模式。,モダンモードをプレイ。,Play modern game.
-ui_play_classic,1,進入經典復古模式。,クラシックモードをプレイ。,Play classic game.
+ui_play_modern,1,現代重製模式。,モダンモードをプレイ。,Play modern game.
+ui_play_classic,1,經典復古模式。,クラシックモードをプレイ。,Play classic game.
 ui_mode,1,操作與畫面模式,モード,Mode
 ui_game_menu,1,遊戲菜單,メニュー,Menu
-ui_classic_desc,1,"相機正交視圖
-《前線任務》第一個遊戲首版經驗","平行投影
+ui_classic_desc,1,"正交視圖
+《前線任務》原作遊戲視圖体験","平行投影
 原作「フロントミッションザ・ファースト」ならではの体験","— Orthogonal View of Camera
 — Experience from the original
 Front Mission 1st game"
-ui_remastered_desc,1,"相機鳥瞰視圖
-攝影機自由移動
-戰術地圖
-辦法與改進","透視投影
+ui_remastered_desc,1,"鳥瞰視圖
+可自由移動攝影機，有戰略地圖，改進細節","透視投影
 カメラを自由に動かせる
 戦略マップ
 細かい変更","— Perspective View of Camera
