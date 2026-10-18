@@ -15,20 +15,15 @@
        doorstop_config.ini
 3. 启动游戏，游戏内语言选择「繁體中文」即可看到汉化文本。
 
+Windows 到这一步就结束了，不需要设置任何东西：
+    Steam 的「右键游戏 → 属性 → 通用 → 启动选项」请保持空白。
+本补丁不需要、也不识别任何命令行参数或环境变量。
+（第五节的 WINEDLLOVERRIDES 是给 Linux / Steam Deck 用的，Windows 不要填。）
+
 首次启动会慢几秒，因为补丁要把额外的汉字现场绘制成字形，之后会快很多。
 
 
-二、Steam Deck / Proton
-
-上面的 winhttp.dll 需要让 Wine 优先加载游戏目录里的版本。在 Steam 里
-右键游戏 → 属性 → 通用 → 启动设置，填入：
-
-    WINEDLLOVERRIDES="winhttp=n,b" %command%
-
-然后把解压出来的文件放进 Proton 前缀对应的游戏目录（兼容数据包）里。
-
-
-三、卸载
+二、卸载
 
 删除游戏根目录下的这三样即可，游戏回到原版状态：
     BepInEx\
@@ -36,7 +31,7 @@
     doorstop_config.ini
 
 
-四、想确认补丁有没有生效
+三、想确认补丁有没有生效
 
 看游戏里这些词：
     生效：設置 / 新手機師指南 / 工作人員列表 / 平滑處理 (ANTI-ALIASING)
@@ -46,17 +41,44 @@
     [FM1R Dynamic Glyph Fallback] 已挂到 ... 个字体资产的 fallback 链首位
 
 
-五、已知限制
+四、点了启动却没进游戏，弹窗「Windows 找不到文件」
+
+如果弹窗里的文件名是 WINEDLLOVERRIDES=winhttp=n,b，说明「启动选项」里
+被贴进了第五节那条 Linux / Steam Deck 专用命令。Windows 的 Steam 会把这串
+文字当成一个程序名去找，自然找不到，游戏根本没启动。
+
+处理：Steam → 右键游戏 → 属性 → 通用 → 启动选项 → 把整栏清空 → 确定。
+这不会影响补丁，游戏和解压出来的文件都没有任何损坏，也不需要重新解压。
+
+
+五、仅 Linux / Steam Deck（Proton）——Windows 用户请跳过本节
+
+上面的 winhttp.dll 需要让 Wine 优先加载游戏目录里的版本。在 Steam 里
+右键游戏 → 属性 → 通用 → 启动选项，填入：
+
+    WINEDLLOVERRIDES="winhttp=n,b" %command%
+
+然后把解压出来的文件放进 Proton 前缀对应的游戏目录（兼容数据包）里。
+
+不填这条的话，Unity 会加载 Proton 自带的 winhttp，BepInEx 的注入入口不会被
+触发，游戏看起来正常启动但仍是原版机翻。
+
+这条命令用的是 Wine 的环境变量语法，只在 Linux / Steam Deck 上有效；
+Windows 上填了只会得到第四节那个报错。
+
+
+六、已知限制
 
 作战简报（－作戰要項－）只显示一行内容，日文与英文原文同样如此，
 这是游戏自身的布局限制，不是汉化造成的。其余界面不受影响。
 
-六、自己改文本
+
+七、自己改文本
 
 见「edit-text.txt」（如何自己改文本）。不需要重新编译任何东西。
 
 
-七、许可与致谢
+八、许可与致谢
 
 - 本补丁不包含、也不修改任何游戏原始资源，全部文本以键值表形式在运行时载入。
 - 随包分发的 Noto Sans CJK TC 字体由 Google 的 Noto CJK 项目提供，

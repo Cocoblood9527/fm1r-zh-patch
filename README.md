@@ -35,17 +35,24 @@
    解压后该目录应出现 `BepInEx\`、`winhttp.dll`、`doorstop_config.ini`。
 4. 启动游戏，语言选「繁體中文」。
 
+**Windows 不需要任何启动参数**，Steam 的「属性 → 通用 → 启动选项」请保持空白。
+下一节的 `WINEDLLOVERRIDES` 是 Linux / Proton 专用命令，贴到 Windows 上会让 Steam 把它
+当成一个程序名去执行，报 `Windows 找不到文件 "WINEDLLOVERRIDES=winhttp=n,b"` 而无法启动。
+出现这个弹窗只需把启动选项清空，游戏文件没有任何损坏。
+
 首次启动会慢几秒——补丁在启动时把需要的汉字现场光栅化成字形，之后会明显变快。
 
-### Steam Deck / Proton
+### 仅 Linux / Steam Deck（Proton）——Windows 用户请跳过本节
 
-除上面的文件外，需要在 Steam 的启动设置里加上：
+上面的解压步骤之外，还需要在 Steam 的「属性 → 通用 → 启动选项」里填入：
 
 ```
 WINEDLLOVERRIDES="winhttp=n,b" %command%
 ```
 
 否则 Unity 会加载 Proton 自带的 `winhttp`，BepInEx 的注入入口不会被触发。
+
+这条命令依赖 Wine 的环境变量语法，**只在 Linux / Steam Deck 上有效，Windows 上不要填**。
 
 ### 卸载
 
