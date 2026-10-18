@@ -5007,7 +5007,7 @@ msg_16dog,1,前往16號碼頭。,１６番ドック,Head to dock number 16.
 msg_pilsts,1,查看機師狀態檔案。,ステータス表示,Display pilot status.
 msg_system,1,保存或讀取遊戲進度。,ゲームのセーブ／ロード,Save or load a game.
 msg_exit,1,離開駐地城市。,町をでる,Leave town.
-msg_city_setup,1,進行機甲整備與改裝 (Set Up)。,機体の編集,Change wanzer setups.
+msg_city_setup,1,機甲整備改裝。,機体の編集,Change wanzer setups.
 msg_ct_save,1,保存當前遊玩數據。,セーブ,Save the current game.
 msg_ct_load,1,讀取既有存檔資料。,ロード,Load the previous game.
 msg_hangar,1,前往機甲機庫。,ハンガー,Go to the hangar.
@@ -5026,8 +5026,8 @@ msg_tent_exit,1,離開帳篷。,テントを出る,Exit the barracks.
 msg_rest,1,全員休整待命。,休む,Rest and recuperate.
 msg_cityexit2,1,移動至其他區域？,移動しますか？,Move to a different location?
 msg_citysally,1,機動部隊出擊作戰？,出撃しますか？,Move out to battle?
-msg_colos2,1,手動控制決鬥 (Manual Duel)。,マニュアル対戦,Manual duel.
-msg_colos3,1,自動戰鬥決鬥 (Auto Duel)。,オート対戦,Auto-duel.
+msg_colos2,1,手動控制決鬥。,マニュアル対戦,Manual duel.
+msg_colos3,1,自動戰鬥決鬥。,オート対戦,Auto-duel.
 msg_colos4,1,登記當前機體數據。,機体データの登録,Register vehicle data.
 msg_colos5,1,注銷已登記機體數據。,登録した機体データの削除,Delete vehicle data.
 msg_colos6,1,查閱機師與機體參數檔案。,機体データを見る,View pilot and vehicle data.
@@ -5037,7 +5037,7 @@ msg_colos9,1,從已有存檔中讀取配置。,セーブデータからロード
 msg_colosa,1,輸入密碼代碼讀取。,パスワードから入力,Enter password.
 msg_shop00,1,選購機甲武裝與部件。,買い物をする,Purchase gear.
 msg_shop01,1,出售庫房閒置裝備。,持ち物を売る,Sell gear.
-msg_shop02,1,邊整備邊選購 (Set Up & Buy)。,セットアップしながら買う,Purchase while setting up.
+msg_shop02,1,邊整備邊選購,セットアップしながら買う,Purchase while setting up.
 msg_shop03,1,與店主交談打聽情報。,主人に話しかける,Talk to the wanzer dealer.
 msg_shop04,1,離開整備商店。,店をでる,Exit current location.
 msg_shop06,1,選購武器裝備。,武器を選択,Select weapons.
@@ -5045,12 +5045,12 @@ msg_shop07,1,選購機體部件。,パーツを選択,Select wanzer parts.
 msg_shop08,1,選購戰術道具。,アイテムを選択,Select items.
 msg_shop09,1,選購手部武器。,手の武器を選択,Select hand weapons.
 msg_shop0b,1,選購肩部武裝。,肩の武器を選択,Select shoulder weapons.
-msg_shop0d,1,選購核心軀幹 (Body)。,胴パーツを選択,Select wanzer body.
-msg_shop0e,1,選購左臂部件 (Left Arm)。,左腕パーツを選択,Select left wanzer arm.
-msg_shop0f,1,選購右臂部件 (Right Arm)。,右腕パーツを選択,Select right wanzer arm.
-msg_shop10,1,選購足部底盤 (Legs)。,両脚パーツを選択,Select wanzer legs.
-msg_shop11,1,選購電腦晶片 (CPU)。,コンピュータを選択,Select CPU.
-msg_shop12,1,選購戰術背包 (Backpack)。,バックパックを選択,Select backpack.
+msg_shop0d,1,選購核心軀幹。,胴パーツを選択,Select wanzer body.
+msg_shop0e,1,選購左臂部件。,左腕パーツを選択,Select left wanzer arm.
+msg_shop0f,1,選購右臂部件。,右腕パーツを選択,Select right wanzer arm.
+msg_shop10,1,選購足部底盤。,両脚パーツを選択,Select wanzer legs.
+msg_shop11,1,選購電腦晶片。,コンピュータを選択,Select CPU.
+msg_shop12,1,選購戰術背包。,バックパックを選択,Select backpack.
 msg_shop13,1,本店當前暫無該類商品出售。,この店には売っていません,No items in this category are on sale.
 msg_shop14,1,庫房中未持有該品類部件。,持っていません,No items in this category.
 msg_bar00,1,與酒吧內的客人交談。,話しかける,Talk to people in this location.
@@ -5172,16 +5172,16 @@ msg_sup_itm,1,更換戰術道具配置。,アイテムの交換をします,Chan
 msg_sup_pai,1,變更機體自定義塗裝配色。,カラーリングを変更します,Change the color scheme.
 msg_sup_nme,1,自定義變更機體命名。,機体名を入力します,Rename the vehicle.
 msg_sup_exit,1,結束機甲整備。,セットアップを終了します,Exit the setup menu.
-msg_pos_bdy,1,安裝核心軀幹 (Body)。,胴パーツを装備します,Equip wanzer body.
-msg_pos_aml,1,安裝左臂部件 (Left Arm)。,左腕パーツを装備します,Equip left wanzer arm.
-msg_pos_amr,1,安裝右臂部件 (Right Arm)。,右腕パーツを装備します,Equip right wanzer arm.
-msg_pos_leg,1,安裝足部底盤 (Legs)。,両脚パーツを装備します,Equip wanzer legs.
-msg_pos_com,1,安裝電腦晶片 (CPU)。,コンピュータを装備します,Equip CPU.
+msg_pos_bdy,1,安裝核心軀幹。,胴パーツを装備します,Equip wanzer body.
+msg_pos_aml,1,安裝左臂部件。,左腕パーツを装備します,Equip left wanzer arm.
+msg_pos_amr,1,安裝右臂部件。,右腕パーツを装備します,Equip right wanzer arm.
+msg_pos_leg,1,安裝足部底盤。,両脚パーツを装備します,Equip wanzer legs.
+msg_pos_com,1,安裝電腦晶片。,コンピュータを装備します,Equip CPU.
 msg_pos_hdl,1,裝備左手武器。,左手の武器を装備します,Equip left hand weapon.
 msg_pos_hdr,1,裝備右手武器。,右手の武器を装備します,Equip right hand weapon.
 msg_pos_sdl,1,裝備左肩武器。,左肩の武器を装備します,Equip left shoulder weapon.
 msg_pos_sdr,1,裝備右肩武器。,右肩の武器を装備します,Equip right shoulder weapon.
-msg_pos_bkp,1,搭載戰術背包 (Backpack)。,バックパックを装備します,Equip backpack.
+msg_pos_bkp,1,搭載戰術背包。,バックパックを装備します,Equip backpack.
 msg_wrn_prt,1,該部件無法裝備于此機體。,装備できないパーツです,This item cannot be equipped.
 msg_wrn_off,1,已卸下無法兼容裝備的部件。,装備できないパーツを外します,Remove unequippable item.
 msg_wrn_mny,1,持有軍費資金不足。,所持金が足りません,Not enough funds.
@@ -23265,7 +23265,7 @@ ui_ucs_desc,1,"以U.S.N.黑色獵犬凱文・格林菲爾德中尉為視角的�
 從敵方視角層層揭開戰爭背後的殘酷陰謀，推薦戰術老玩家選擇。",U.S.N.軍のケビンから見た第二次ハフマン紛争。上級者におすすめ。,"The Second Huffman Conflict, as seen through the eyes of Lieutenant Kevin Greenfield of the U.C.S. military.
 Recommended for experienced players."
 ui_more_details,1,查看詳細參數,詳細を開く,More details
-ui_exp,1,經驗值 (EXP),Exp,Exp
+ui_exp,1,經驗值,Exp,Exp
 ui_lv,1,等級,Lv.,Lv.
 ui_level,1,等級,Level,Level
 ui_in,1,搭乘,IN,IN
@@ -23276,10 +23276,10 @@ ui_lvl,1,等級,LVL,LVL
 ui_weapons_equipped,1,武器,Weapons,Weapons
 ui_range,1,射程,Range,Range
 ui_ammo,1,殘彈數,Bullet,Ammo
-ui_melee,1,格鬥 (Fight),Fight,Melee
-ui_short,1,突擊 (Short),Short,Short
-ui_long,1,長程 (Long),Long,Long
-ui_dodge,1,迴避率 (Agility),Agility,Dodge
+ui_melee,1,格鬥,Fight,Melee
+ui_short,1,突擊,Short,Short
+ui_long,1,長程,Long,Long
+ui_dodge,1,迴避率,Agility,Dodge
 ui_total,1,合計總數,TOTAL,TOTAL
 ui_close_details,1,關閉詳細資訊,詳細を閉じる,Close details
 ui_shop,1,店鋪,Shop,Shop
@@ -24313,7 +24313,7 @@ ui_mech_jeep,1,吉普車,Spyjeep,JEEP
 ui_mech_phantom,1,Phantom,PHANTOM,PHANTOM
 ui_mech_light_tank,1,輕型戰車,LIGHT TANK,LIGHT TANK
 ui_mech_radar_dome,1,對空雷達罩,RadarDome,RADAR DOME
-ui_mech_m_b_t,0,主戰戰車 (M.B.T.),M.B.T.,M.B.T.
+ui_mech_m_b_t,0,主戰戰車,M.B.T.,M.B.T.
 ui_mech_k_o_n_g,0,K.O.N.G.,K.O.N.G.,K.O.N.G.
 ui_mech_aah34c,0,AAH34C,AAH34c,AAH34C
 ui_mech_mad_lecter,1,暴走雷克特,Mad lecter,MAD LECTER
