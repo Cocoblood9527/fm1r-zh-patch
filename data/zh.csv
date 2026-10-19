@@ -4505,7 +4505,7 @@ msg_itsmkd,1,"煙幕彈：
 降低目標範圍內的敵機命中率","スモークグレネード：
 敵の攻撃命中率を下げる","Smoke Grenade:
 Lowers target's accuracy."
-msg_itchfd,1,"干擾彈 (Chaff)：
+msg_itchfd,1,"干擾彈：
 提高對遠距離火砲與飛彈的迴避率","チャフグレネード：
 遠距離攻撃の回避率を上げる","Chaff Grenade:
 Protects against long-range attacks."
@@ -4513,7 +4513,7 @@ msg_itflsd,1,"閃光彈：
 癱瘓目標機動，阻止機體行動","フラッシュグレネード：
 機体の動きを止める","Flash Grenade:
 Stuns target."
-msg_itasdd,1,"強酸彈 (Acid)：
+msg_itasdd,1,"強酸彈：
 腐蝕目標各部位裝甲，降低其防禦力 (DF)","アシッドボム：
 敵の各パーツの装甲を下げる","Acid Bomb:
 Lowers target's defense."
@@ -23165,7 +23165,7 @@ ui_menu,1,菜單,Menu,Menu
 ui_city,1,城市,City,City
 ui_map,1,地圖,Map,Map
 ui_left_stick,1,左搖桿,Lスティック,Left Stick
-ui_dpad,1,方向鍵 (D-pad),十字ボタン,D-pad
+ui_dpad,1,方向鍵,十字ボタン,D-pad
 ui_left_right_arrow,1,左右方向鍵,左右の矢印,Right/Left Arrow
 ui_submit,1,確定,決定,Submit
 ui_apply,1,應用設置,適用,Apply
@@ -23311,13 +23311,13 @@ ui_select_vehicle,1,選擇需要進行整備的機甲。,セットアップす�
 ui_select_parts,1,選擇部件,Select parts,Select parts
 ui_currently_equipped,1,當前裝備搭載：,現在装備中：,Currently equipped:
 ui_ready,1,整備就緒,準備完了,Ready
-ui_at,1,攻擊力 (AT),AT,AT
-ui_hit,1,命中率 (Hit),Hit,Hit
-ui_weight,1,重量 (Weight),Weight,Weight
+ui_at,1,攻擊力,AT,AT
+ui_hit,1,命中率,Hit,Hit
+ui_weight,1,重量,Weight,Weight
 ui_bullet,1,彈藥量,Bullet,Bullet
 ui_type,1,部件類型,Type,Type
-ui_hp,1,耐久度 (HP),HP,HP
-ui_wp,1,重量/功率比 (W/P),W/P,W/P
+ui_hp,1,HP,HP,HP
+ui_wp,1,W/P,W/P,W/P
 ui_weapons_position,1,武器搭載部位,Weapons position,Weapons position
 ui_enter_vehicle_name,1,輸入機體自定義名稱,Enter Vehicle Name,Enter Vehicle Name
 ui_boss_data,1,頭目情報數據,ボスの情報,Boss Data
@@ -23390,7 +23390,7 @@ ui_pmo_officer,1,和平調停軍 (PMO) 指揮官,恒平和調停軍の隊長,PMO
 ui_pmo_soldier,1,和平調停軍 (PMO) 士兵,恒平和調停軍の兵士,PMO Soldier
 ui_scientist,1,科研研究員,研究者,Scientist
 ui_security_ai,1,安防自律AI核心,システム,Security AI
-ui_skyeye,1,戰術空眼 (Skyeye),スカイアイ,Skyeye
+ui_skyeye,1,戰術空眼,スカイアイ,Skyeye
 ui_spec_ops_agent,1,特種作戰特工,特殊部隊,Spec Ops Agent
 ui_steya,1,斯蒂亞,Steiya,Steya
 ui_ucs_commander,1,U.S.N. 戰術指揮官,U.S.N.司令官,U.C.S. Commander
@@ -23429,10 +23429,10 @@ ui_mission_reward,1,任務獎勵：,クリア報酬：,Mission Reward:
 ui_kill_bonus_colon,1,殺戮獎金：,キルボーナス：,Kill Bonus:
 ui_unit_repair_cost,1,單位修理成本：,ユニット修理代,Unit Repair Cost:
 ui_total_colon,1,總計：,総計：,Total:
-ui_chaff,1,電子防害（雷）,Chaff,Chaff
-ui_acid_bomb,1,酸性蝕甲彈,Acid Bomb,Acid Bomb
-ui_smoke,1,煙霧（手雷）,Smoke,Smoke
-ui_flash,1,閃光（手雷）,Flash,Flash
+ui_chaff,1,干擾彈,Chaff,Chaff
+ui_acid_bomb,1,酸性彈,Acid Bomb,Acid Bomb
+ui_smoke,1,煙幕彈,Smoke,Smoke
+ui_flash,1,閃光彈,Flash,Flash
 ui_repair_s,1,修復道具S,Repair S,Repair S
 ui_repair_m,1,修復道具M,Repair M,Repair M
 ui_repair_l,1,修復道具L,Repair L,Repair L
@@ -23545,12 +23545,12 @@ ui_weight_over,1,重量超載,重量オーバー,Weight Over
 ui_warning,1,警告提示,WARNING,WARNING
 ui_vehicle,1,步行機甲,VEHICLE,VEHICLE
 ui_pilots,1,機師陣容,PILOTS,PILOTS
-ui_df,1,防禦力 (DF),DF,DF
-ui_power,1,輸出功率 (Power),Power,Power
+ui_df,1,防禦力,DF,DF
+ui_power,1,輸出功率,Power,Power
 ui_int_weapon,1,內部武器,Int.Weapon,Int.Weapon
 ui_fight,1,戰鬥,攻撃,Fight
 ui_agility,1,敏捷性,回避率,Agility
-ui_bp,1,戰術背包 (BP),Back Pack,BP
+ui_bp,1,戰術背包,Back Pack,BP
 ui_strike,1,全員出擊,STRIKE,STRIKE
 ui_incomplete_setup,1,機體整備未完成,セットアップ不完全,Incomplete Setup
 ui_parts_returned,1,部件已卸下並退回倉庫,パーツをストックに戻しました,Parts Returned To Stock
@@ -23982,7 +23982,7 @@ ui_name_figa,1,薩瑟蘭,Sazaland,SUTHERLAND
 ui_name_figb,1,魯登斯基,Rudensky,Rudensky
 ui_name_figc,1,約格,Jorg,Jorg
 ui_name_figd,1,亞歷山大,Alexander,Alexander
-ui_name_mask,1,伏兵（Unbush）,Unbush,Unbush
+ui_name_mask,1,Unbush,Unbush,Unbush
 ui_name_mana,1,比利,Billy,Billy
 ui_name_manb,1,史蒂夫,Steve,Steve
 ui_name_manc,1,巴爾達,Balda,Balda
